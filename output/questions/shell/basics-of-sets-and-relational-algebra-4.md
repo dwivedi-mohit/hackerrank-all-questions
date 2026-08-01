@@ -1,0 +1,17 @@
+# Basics of Sets and Relations #4
+
+- **Domain:** shell
+- **Difficulty:** Easy
+- **Max Score:** 5
+- **Success Ratio:** 0.9655106632478441
+- **Total Submissions:** 178229
+- **Solved Count:** 172082
+- **URL:** https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-4
+
+## Problem Statement
+
+You are given two sets.  
+Set **A** = {1,2,3,4,5,6}  
+Set **B** = {2,3,4,5,6,7,8}
+
+What is the total number of ordered pairs present in the Cartesian Product $A \times B$ ? Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.

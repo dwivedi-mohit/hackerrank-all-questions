@@ -1,0 +1,41 @@
+{
+  "algorithms": {
+    "list_done": true
+  },
+  "data-structures": {
+    "list_done": true
+  },
+  "java": {
+    "list_done": true
+  },
+  "c": {
+    "list_done": true
+  },
+  "cpp": {
+    "list_done": true
+  },
+  "mathematics": {
+    "list_done": true
+  },
+  "sql": {
+    "list_done": true
+  },
+  "databases": {
+    "list_done": true
+  },
+  "shell": {
+    "list_done": true
+  },
+  "regex": {
+    "list_done": true
+  },
+  "fp": {
+    "list_done": true
+  },
+  "python": {
+    "list_done": true
+  },
+  "ai": {
+    "list_done": true
+  }
+}

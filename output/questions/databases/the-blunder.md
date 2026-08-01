@@ -1,0 +1,35 @@
+# The Blunder
+
+- **Domain:** databases
+- **Difficulty:** Easy
+- **Max Score:** 15
+- **Success Ratio:** 0.9697036167856837
+- **Total Submissions:** 665591
+- **Solved Count:** 645426
+- **URL:** https://www.hackerrank.com/challenges/the-blunder
+
+## Problem Statement
+
+Samantha was tasked with calculating the average monthly salaries for all employees in the **EMPLOYEES** table, but did not realize her keyboard's $0$ key was broken until after completing the calculation. She wants your help finding the difference between her miscalculation (using salaries with any zeros removed), and the actual average salary.
+
+Write a query calculating the amount of error (i.e.: $actual - miscalculated$ average monthly salaries), and round it up to the next integer.
+
+## Input Format
+
+The **EMPLOYEES** table is described as follows:
+
+<img src="https://s3.amazonaws.com/hr-challenge-images/12893/1443817108-adc2235c81-1.png" />
+
+**Note:**  *Salary* is per month.  
+
+## Constraints
+
+ $1000 \lt \text{Salary} \lt 10^5$. 
+
+## Explanation
+
+The table below shows the salaries without zeros as they were  entered by Samantha:
+
+Samantha computes an average salary of . The actual average salary is .
+
+The resulting error between the two calculations is .  Since it is equal to the integer , it does not get rounded up.
