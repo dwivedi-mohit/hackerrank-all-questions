@@ -220,6 +220,12 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
+## Author
+
+**Mohit Dwivedi** — [GitHub](https://github.com/dwivedi-mohit)
+
+---
+
 <div align="center">
 
 **Built with ❤️ for the coding community**
