@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/hr-assets/0/5e9c6f3b47dfc56073d41258a31a654d4a98611f_Mask+Group.png?auto=format&fit=cover&w=1200" width="100%"/>
+# <img src="assets/banner.svg" width="100%"/>
 
 # **HackerRank Dumper**
 

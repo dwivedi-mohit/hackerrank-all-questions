@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1cdb95;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="300" rx="16" fill="url(#bg)"/>
+  <rect x="20" y="20" width="860" height="260" rx="12" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
+  <!-- Code brackets -->
+  <text x="120" y="190" font-family="monospace" font-size="120" font-weight="bold" fill="url(#accent)" opacity="0.15">&lt;/&gt;</text>
+  <!-- Title -->
+  <text x="450" y="140" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="white" text-anchor="middle">HackerRank</text>
+  <text x="450" y="195" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="url(#accent)" text-anchor="middle">25,909 Questions</text>
+  <!-- Subtitle -->
+  <text x="450" y="240" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#94a3b8" text-anchor="middle">13 Domains · All Difficulties · Clean Markdown</text>
+  <!-- Dots -->
+  <circle cx="340" cy="260" r="4" fill="#1cdb95" opacity="0.6"/>
+  <circle cx="360" cy="260" r="4" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="380" cy="260" r="4" fill="#c084fc" opacity="0.6"/>
+  <circle cx="400" cy="260" r="4" fill="#ff6b6b" opacity="0.6"/>
+  <circle cx="420" cy="260" r="4" fill="#ffd93d" opacity="0.6"/>
+  <circle cx="440" cy="260" r="4" fill="#1cdb95" opacity="0.6"/>
+  <circle cx="460" cy="260" r="4" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="480" cy="260" r="4" fill="#c084fc" opacity="0.6"/>
+  <circle cx="500" cy="260" r="4" fill="#ff6b6b" opacity="0.6"/>
+  <circle cx="520" cy="260" r="4" fill="#ffd93d" opacity="0.6"/>
+  <circle cx="540" cy="260" r="4" fill="#1cdb95" opacity="0.6"/>
+  <circle cx="560" cy="260" r="4" fill="#38bdf8" opacity="0.6"/>
+</svg>
