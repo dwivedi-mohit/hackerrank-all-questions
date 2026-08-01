@@ -1,105 +1,166 @@
 <div align="center">
 
-# <img src="assets/banner.svg" width="100%"/>
+<img src="assets/matrix-banner.svg" width="100%"/>
 
-# **HackerRank Dumper**
+<br/>
 
-[![GitHub stars](https://img.shields.io/github/stars/mohit-wqsxb/hackerrank-dumper?style=flat-square&logo=github&color=ff6b6b)](https://github.com/mohit-wqsxb/hackerrank-dumper/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/mohit-wqsxb/hackerrank-dumper?style=flat-square&logo=github&color=ffd93d)](https://github.com/mohit-wqsxb/hackerrank-dumper/network/members)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square&color=38bdf8)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00FF41?style=for-the-badge&labelColor=0a0a0a)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.14-00FF41?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)](https://python.org)
+[![Questions](https://img.shields.io/badge/25%2C909-Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
 
----
+<br/>
 
-**Every HackerRank coding question, fully scraped with problem statements, sample I/O, constraints, and explanations — in clean, searchable Markdown.**
-
-[Features](#-features) · [Domains](#-domains) · [Quick Start](#-quick-start) · [Sample](#-sample-output) · [License](#-license)
-
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Every+HackerRank+Question+Offline%3BFull+Problem+Statements+in+Markdown" alt="Typing SVG" />
 
 </div>
 
-## Overview
-
-| Metric | Value |
-|:-------|------:|
-| Total Questions | **25,909** |
-| Domains | **13** |
-| File Format | Markdown (`.md`) |
-| Total Size | **~60 MB** |
-| Index Size | **12.7 MB** |
-
-A complete offline archive of **25,909** HackerRank coding problems scraped across **13 domains** and **all difficulty levels**.
-
-Every question includes:
-- Full problem statement (with LaTeX math)
-- Sample inputs & outputs
-- Constraints and input format
-- Explanations and editorial hints
-- Metadata: difficulty, success ratio, tags, direct URL
-
 ---
 
-## Features
+<br/>
 
-| Feature | Description |
-|:--------|:------------|
-| **Complete Archive** | 25,909 questions across all 13 HackerRank domains |
-| **Clean Markdown** | Every question is a standalone `.md` file |
-| **Rich Content** | Problem statements, sample I/O, constraints, explanations |
-| **LaTeX Preserved** | Math formulas render beautifully on GitHub |
-| **Metadata Index** | `challenges.json` for programmatic access to all questions |
-| **All Difficulties** | Easy, Medium, Hard, Expert — every level included |
+<div align="center">
 
----
-
-## Domains
-
-<table>
-<tr>
-<td width="50%">
-
-| Domain | Questions | Description |
-|:-------|----------:|:------------|
-| Algorithms | 1,993 | Sorting, searching, DP, graphs, greedy |
-| Data Structures | 1,993 | Trees, heaps, linked lists, hashmaps |
-| Python | 1,993 | Python-specific challenges |
-| Java | 1,993 | Java-specific challenges |
-| C | 1,993 | C language challenges |
-| C++ | 1,993 | C++ specific challenges |
-| Mathematics | 1,993 | Number theory, combinatorics, geometry |
-
-</td>
-<td width="50%">
-
-| Domain | Questions | Description |
-|:-------|----------:|:------------|
-| SQL | 1,993 | Query writing, joins, window functions |
-| Databases | 1,993 | Database design, normalization |
-| Shell | 1,993 | Bash scripting challenges |
-| Regex | 1,993 | Regular expression patterns |
-| FP | 1,993 | Functional programming (Haskell, Erlang) |
-| AI | 1,993 | Machine learning, NLP, robotics |
-
-</td>
-</tr>
-</table>
-
----
-
-## Quick Start
-
-```bash
-# Clone the repo
-git clone https://github.com/mohit-wqsxb/hackerrank-dumper.git
-cd hackerrank-dumper
-
-# Browse a question
-cat output/questions/algorithms/solve-me-first.md
+```
+ ██████╗ ██╗  ██╗ █████╗ ███╗   ██╗████████╗ ██████╗ ███╗   ███╗
+██╔════╝ ██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██╔═══██╗████╗ ████║
+██║  ███╗███████║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║
+██║   ██║██╔══██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║
+╚██████╔╝██║  ██║██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║
+ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝
 ```
 
-### Search across all questions
+</div>
 
-```bash
+---
+
+<br/>
+
+## **SYSTEM STATUS**
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  $ ./hackerrank-dumper --status                         │
+├─────────────────────────────────────────────────────────┤
+│  [OK] Total Questions    : 25,909                       │
+│  [OK] Domains Loaded     : 13/13                        │
+│  [OK] File Format        : Markdown (.md)               │
+│  [OK] Index Size         : 12.7 MB                      │
+│  [OK] Status             : OPERATIONAL                  │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+<br/>
+
+## **> ls output/questions/**
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  $ ls output/questions/                                 │
+├─────────────────────────────────────────────────────────┤
+│  ai/           1,993 questions   Machine Learning, NLP  │
+│  algorithms/   1,993 questions   Sorting, DP, Graphs   │
+│  c/            1,993 questions   C Language            │
+│  cpp/          1,993 questions   C++ Language          │
+│  data-structs/ 1,993 questions   Trees, Heaps, Lists   │
+│  databases/    1,993 questions   DB Design, SQL        │
+│  fp/           1,993 questions   Haskell, Erlang       │
+│  java/         1,993 questions   Java Language         │
+│  mathematics/  1,993 questions   Number Theory, Geo   │
+│  python/       1,993 questions   Python Language       │
+│  regex/        1,993 questions   Regular Expressions   │
+│  shell/        1,993 questions   Bash Scripting        │
+│  sql/          1,993 questions   Query Writing         │
+├─────────────────────────────────────────────────────────┤
+│  TOTAL: 25,909 questions | ALL DOMAINS COMPLETE         │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+<br/>
+
+## **> cat stats.txt**
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  $ cat stats.txt                                        │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  DOMAIN            QUESTIONS    DIFFICULTY              │
+│  ────────────────  ─────────    ──────────              │
+│  Algorithms        1,993        Easy → Hard             │
+│  Data Structures   1,993        Easy → Hard             │
+│  Python            1,993        Easy → Hard             │
+│  Java              1,993        Easy → Hard             │
+│  C                 1,993        Easy → Hard             │
+│  C++               1,993        Easy → Hard             │
+│  Mathematics       1,993        Easy → Hard             │
+│  SQL               1,993        Easy → Hard             │
+│  Databases         1,993        Easy → Hard             │
+│  Shell             1,993        Easy → Hard             │
+│  Regex             1,993        Easy → Hard             │
+│  FP                1,993        Easy → Hard             │
+│  AI                1,993        Easy → Hard             │
+│  ────────────────  ─────────                         │
+│  TOTAL             25,909                             │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+<br/>
+
+## **> cat sample.md**
+
+<details>
+<summary><b>$ cat output/questions/algorithms/solve-me-first.md</b></summary>
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  # Solve Me First                                       │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  Domain:        algorithms                              │
+│  Difficulty:    Easy                                    │
+│  Max Score:     1                                       │
+│  URL:           hackerrank.com/challenges/...           │
+│                                                         │
+│  ## Problem Statement                                   │
+│                                                         │
+│  Complete the function $solveMeFirst$ to compute the    │
+│  sum of two integers.                                   │
+│                                                         │
+│  Example:                                               │
+│    $a = 7$                                              │
+│    $b = 3$                                              │
+│    Return $10$                                          │
+│                                                         │
+│  ## Sample Input                                        │
+│    a = 2                                                │
+│    b = 3                                                │
+│                                                         │
+│  ## Sample Output                                       │
+│    5                                                    │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+</details>
+
+---
+
+<br/>
+
+## **> grep "binary search" -r questions/**
+
+```python
+# Quick search examples
+
 # Find all binary search problems
 grep -rl "binary search" output/questions/ | head -20
 
@@ -107,10 +168,16 @@ grep -rl "binary search" output/questions/ | head -20
 grep -l "Hard" output/questions/*/*.md
 
 # Count questions per domain
-for d in output/questions/*/; do echo "$(basename $d): $(ls "$d" | wc -l)"; done
+for d in output/questions/*/; do
+  echo "$(basename $d): $(ls "$d" | wc -l)"
+done
 ```
 
-### Query the JSON index
+---
+
+<br/>
+
+## **> python3 query.py**
 
 ```python
 import json
@@ -119,116 +186,111 @@ with open("output/challenges.json") as f:
     challenges = json.load(f)
 
 # Find all Hard algorithms
-hard_algos = [c for c in challenges if c["domain"] == "algorithms" and c["difficulty"] == "Hard"]
+hard_algos = [
+    c for c in challenges
+    if c["domain"] == "algorithms"
+    and c["difficulty"] == "Hard"
+]
+
 print(f"Found {len(hard_algos)} hard algorithm problems")
+
+# Top 10 most solved
+top = sorted(
+    challenges,
+    key=lambda x: x["solved_count"],
+    reverse=True
+)[:10]
+
+for c in top:
+    print(f"  {c['solved_count']:>8} solves — {c['name']}")
 ```
 
 ---
 
-## Project Structure
+<br/>
+
+## **> cat README.md | grep -A5 "FEATURES"**
 
 ```
-hackerrank-dumper/
-├── README.md
-├── LICENSE
-└── output/
-    ├── challenges.json          # Master index (25,909 entries, 12.7 MB)
-    ├── metadata/                # Per-domain metadata
-    │   ├── algorithms.json
-    │   ├── python.json
-    │   └── ... (13 files)
-    │
-    └── questions/               # Full problem statements
-        ├── algorithms/          # 1,993 .md files
-        │   ├── solve-me-first.md
-        │   └── ...
-        ├── data-structures/
-        ├── python/
-        ├── java/
-        ├── c/
-        ├── cpp/
-        ├── mathematics/
-        ├── sql/
-        ├── databases/
-        ├── shell/
-        ├── regex/
-        ├── fp/
-        └── ai/
+┌─────────────────────────────────────────────────────────┐
+│  FEATURES                                              │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  [✓] 25,909 questions across 13 domains                 │
+│  [✓] Full problem statements with LaTeX math            │
+│  [✓] Sample inputs & outputs                            │
+│  [✓] Constraints and input format                       │
+│  [✓] Explanations and editorial hints                   │
+│  [✓] Clean Markdown format                              │
+│  [✓] Master JSON index (12.7 MB)                        │
+│  [✓] All difficulty levels                              │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Sample Output
+<br/>
 
-<details>
-<summary><b>Solve Me First</b> — click to expand</summary>
+## **> ./quick-start.sh**
 
-```markdown
-# Solve Me First
+```bash
+# Clone the repo
+git clone https://github.com/dwivedi-mohit/hackerrank-all-questions.git
+cd hackerrank-all-questions
 
-- **Domain:** algorithms
-- **Difficulty:** Easy
-- **Max Score:** 1
-- **Success Ratio:** 0.9757
-- **Total Submissions:** 5,078,218
-- **Solved Count:** 4,954,820
-- **URL:** https://www.hackerrank.com/challenges/solve-me-first
+# Read a question
+cat output/questions/algorithms/solve-me-first.md
 
-## Problem Statement
+# Search
+grep -rl "binary search" output/questions/
 
-Complete the function $solveMeFirst$ to compute the sum of two integers.
-
-**Example**
-$a = 7$
-$b = 3$
-
-Return $10$.
-
-## Constraints
-
-- $1 \le a, b \le 1000$
-
-## Sample Input
-
-a = 2
-b = 3
-
-## Sample Output
-
-5
+# Query index
+python3 -c "import json; d=json.load(open('output/challenges.json')); print(len(d))"
 ```
 
-</details>
+---
+
+<br/>
+
+## **> cat AUTHOR.txt**
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  $ whoami                                               │
+│  Mohit Dwivedi                                          │
+│                                                         │
+│  $ cat github.txt                                       │
+│  https://github.com/dwivedi-mohit                       │
+│                                                         │
+│  $ echo "Built with ❤ for the coding community"        │
+│  Built with ❤ for the coding community                  │
+└─────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Use Cases
+<br/>
 
-| Use Case | How |
-|:---------|:----|
-| **Interview Prep** | Browse offline, search by topic, no internet needed |
-| **Build Question Bank** | Import `challenges.json` into your app |
-| **AI Training** | Use problem statements + constraints as training data |
-| **Custom Practice Sets** | Filter by difficulty, domain, or tags |
-| **Offline Access** | Practice anywhere without WiFi |
+## **> cat LICENSE**
+
+```
+MIT License — 2026 Mohit Dwivedi
+```
 
 ---
 
-## License
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
----
-
-## Author
-
-**Mohit Dwivedi** — [GitHub](https://github.com/dwivedi-mohit)
-
----
+<br/>
 
 <div align="center">
 
-**Built with ❤️ for the coding community**
+```
+█──█ █── █─ █─── ██─█ ██▀▀ ██▀▀ █── █▀▀▄ ▀█▀ █▀▀▄ █▀▀█ █── █▀▀▄ █▀▀█
+█▀▀█ █── █  █▄▄ ██▀  █▀▀  █▀▀  █▄▄ █▀▀█  █  █▀▀▄ █▄▄▀ █▄▄ █▀▀▄ █▄▄▀
+█──█ ▀▀▀ ▀─ ▀─── ▀─▀─ ▀▀▀▀ ▀─── ▀── ▀──▀  ▀  ▀──▀ ▀──▀ ▀── ▀▀▀  ▀──▀
+```
+
+**Made by [Mohit Dwivedi](https://github.com/dwivedi-mohit)**
 
 [⬆ Back to Top](#hackerrank-dumper)
 
