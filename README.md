@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00FF41?style=for-the-badge&labelColor=0a0a0a)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.14-00FF41?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)](https://python.org)
-[![Questions](https://img.shields.io/badge/25%2C909-Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
+[![Questions](https://img.shields.io/badge/1%2C993-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
 
 <br/>
 
@@ -43,8 +43,8 @@
 ┌─────────────────────────────────────────────────────────┐
 │  $ ./hackerrank-dumper --status                         │
 ├─────────────────────────────────────────────────────────┤
-│  [OK] Total Questions    : 25,909                       │
-│  [OK] Domains Loaded     : 13/13                        │
+│  [OK] Total Questions    : 1,993 (unique)                    │
+│  [OK] Domains Tagged     : 14 (all questions tagged)        │
 │  [OK] File Format        : Markdown (.md)               │
 │  [OK] Index Size         : 12.7 MB                      │
 │  [OK] Status             : OPERATIONAL                  │
@@ -75,7 +75,7 @@
 │  shell/        1,993 questions   Bash Scripting        │
 │  sql/          1,993 questions   Query Writing         │
 ├─────────────────────────────────────────────────────────┤
-│  TOTAL: 25,909 questions | ALL DOMAINS COMPLETE         │
+│  TOTAL: 1,993 unique questions | 14 DOMAINS TAGS  │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -93,20 +93,26 @@
 │  DOMAIN            QUESTIONS    DIFFICULTY              │
 │  ────────────────  ─────────    ──────────              │
 │  Algorithms        1,993        Easy → Hard             │
-│  Data Structures   1,993        Easy → Hard             │
-│  Python            1,993        Easy → Hard             │
-│  Java              1,993        Easy → Hard             │
+│  Angular           1,993        Easy → Hard             │
 │  C                 1,993        Easy → Hard             │
+│  CI/CD             1,993        Easy → Hard             │
 │  C++               1,993        Easy → Hard             │
-│  Mathematics       1,993        Easy → Hard             │
-│  SQL               1,993        Easy → Hard             │
+│  Data Structures   1,993        Easy → Hard             │
 │  Databases         1,993        Easy → Hard             │
-│  Shell             1,993        Easy → Hard             │
-│  Regex             1,993        Easy → Hard             │
+│  Devops            1,993        Easy → Hard             │
+│  Docker            1,993        Easy → Hard             │
 │  FP                1,993        Easy → Hard             │
-│  AI                1,993        Easy → Hard             │
-│  ────────────────  ─────────                         │
-│  TOTAL             25,909                             │
+│  Git               1,993        Easy → Hard             │
+│  Java              1,993        Easy → Hard             │
+│  Kubernetes        1,993        Easy → Hard             │
+│  Mathematics       1,993        Easy → Hard             │
+│  Python            1,993        Easy → Hard             │
+│  Regex             1,993        Easy → Hard             │
+│  Shell             1,993        Easy → Hard             │
+│  Spring Boot       1,993        Easy → Hard             │
+│  SQL               1,993        Easy → Hard             │
+│  ────────────────  ─────────                                 │
+│  TOTAL             1,993 unique (tagged across 14 domains) │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -118,7 +124,7 @@
 ## **> cat sample.md**
 
 <details>
-<summary><b>$ cat output/questions/algorithms/solve-me-first.md</b></summary>
+<summary><b>$ cat output/questions/solve-me-first.md</b></summary>
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -156,7 +162,7 @@
 
 <br/>
 
-## **> grep "binary search" -r questions/**
+## **> grep "binary search" output/questions/**
 
 ```python
 # Quick search examples
@@ -165,12 +171,10 @@
 grep -rl "binary search" output/questions/ | head -20
 
 # List all Hard problems
-grep -l "Hard" output/questions/*/*.md
+grep -l "Hard" output/questions/*.md
 
-# Count questions per domain
-for d in output/questions/*/; do
-  echo "$(basename $d): $(ls "$d" | wc -l)"
-done
+# Filter by domain tag
+python3 -c "import json; d=json.load(open('output/domain-index.json')); print(len(d.get('algorithms', [])))"
 ```
 
 ---
@@ -188,21 +192,15 @@ with open("output/challenges.json") as f:
 # Find all Hard algorithms
 hard_algos = [
     c for c in challenges
-    if c["domain"] == "algorithms"
+    if "algorithms" in c.get("domains", [])
     and c["difficulty"] == "Hard"
 ]
 
 print(f"Found {len(hard_algos)} hard algorithm problems")
 
-# Top 10 most solved
-top = sorted(
-    challenges,
-    key=lambda x: x["solved_count"],
-    reverse=True
-)[:10]
-
-for c in top:
-    print(f"  {c['solved_count']:>8} solves — {c['name']}")
+# Filter by domain
+devops_questions = [c for c in challenges if "devops" in c.get("domains", [])]
+print(f"DevOps questions: {len(devops_questions)}")
 ```
 
 ---
@@ -216,7 +214,7 @@ for c in top:
 │  FEATURES                                              │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  [✓] 25,909 questions across 13 domains                 │
+│  [✓] 1,993 unique questions across 14 domain tags   │
 │  [✓] Full problem statements with LaTeX math            │
 │  [✓] Sample inputs & outputs                            │
 │  [✓] Constraints and input format                       │

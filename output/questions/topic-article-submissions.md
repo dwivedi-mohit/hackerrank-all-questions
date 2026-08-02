@@ -1,0 +1,17 @@
+# Topic Article Submissions
+
+- **Domain:** ai
+- **Difficulty:** Easy
+- **Max Score:** 0
+- **Success Ratio:** 0.2857142857142857
+- **Total Submissions:** 7
+- **Solved Count:** 2
+- **URL:** https://www.hackerrank.com/challenges/topic-article-submissions
+
+## Problem Statement
+
+This challenge will be used to make submissions for the run-code entries in Topic Articles
+
+## Domains
+
+ai, algorithms, angular, c, cpp, data-structures, databases, fp, java, mathematics, python, regex, shell, sql

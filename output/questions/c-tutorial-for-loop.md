@@ -1,0 +1,60 @@
+# For Loop
+
+- **Domain:** ai
+- **Difficulty:** Easy
+- **Max Score:** 10
+- **Success Ratio:** 0.9505674044872254
+- **Total Submissions:** 795993
+- **Solved Count:** 756645
+- **URL:** https://www.hackerrank.com/challenges/c-tutorial-for-loop
+
+## Problem Statement
+
+A _for_ loop is a programming language statement which allows code to be repeatedly executed.  
+
+The syntax is
+
+	for ( <expression_1> ; <expression_2> ; <expression_3> )
+    	<statement>
+
+- _expression\_1_ is used for intializing variables which are generally used for controlling the terminating flag for the loop.
+- _expression\_2_ is used to check for the terminating condition. If this evaluates to false, then the loop is terminated.
+- _expression\_3_ is generally used to update the flags/variables.
+
+A sample loop is
+
+	for(int i = 0; i < 10; i++) {
+    	...
+    }
+    
+In this challenge, you will use a for loop to increment a variable through a range.  
+
+## Input Format
+
+You will be given two positive integers, $a$ and $b$ ($a \le b$), separated by a newline.
+
+## Output Format
+
+For each integer $n$ in the inclusive interval $[a, b]$:
+
+- If $1 \le n \le 9$, then print the English representation of it in lowercase. That is "one" for $1$, "two" for $2$, and so on.
+- Else if $n > 9$ and it is an even number, then print "even".
+- Else if $n > 9$ and it is an odd number, then print "odd".
+
+**Note:** $[a, b] = \{x \in \mathbb{Z} \,|\, ~a \le x \le b\} = \{a, ~a+1, \dots, b\}$ 
+
+
+## Sample Input
+
+11
+
+## Sample Output
+
+eight
+nine
+even
+odd
+
+## Domains
+
+ai, algorithms, angular, c, cpp, data-structures, databases, fp, java, mathematics, python, regex, shell, sql
