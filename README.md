@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00FF41?style=for-the-badge&labelColor=0a0a0a)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.14-00FF41?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)](https://python.org)
-[![Questions](https://img.shields.io/badge/1%2C598-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
+[![Questions](https://img.shields.io/badge/1%2C993-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
 
 <br/>
 
@@ -43,8 +43,8 @@
 ┌─────────────────────────────────────────────────────────┐
 │  $ ./hackerrank-dumper --status                         │
 ├─────────────────────────────────────────────────────────┤
-│  [OK] Total Questions    : 1,598 (unique)               │
-│  [OK] Domains            : 17 (per-domain folders)      │
+│  [OK] Total Questions    : 1,993 (unique)               │
+│  [OK] Domains            : 19 (per-domain folders)      │
 │  [OK] File Format        : Markdown (.md)               │
 │  [OK] Status             : OPERATIONAL                  │
 └─────────────────────────────────────────────────────────┘

@@ -26,6 +26,7 @@ def fetch_challenge(slug: str, session: requests.Session) -> dict | None:
                         "difficulty": ch.get("difficulty_name", ""),
                         "score": ch.get("max_score") or ch.get("score") or 0,
                         "preview": ch.get("preview") or "",
+                        "kind": ch.get("kind") or "",
                         "problem_statement": (ch.get("problem_statement") or "").strip(),
                         "input_format": (ch.get("input_format") or "").strip(),
                         "output_format": (ch.get("output_format") or "").strip(),
