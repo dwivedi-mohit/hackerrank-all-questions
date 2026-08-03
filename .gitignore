@@ -11,6 +11,8 @@ __pycache__/
 neo_signup.py
 hr_signup.py
 combine_enterprise.py
+test_api.py
+test_contests.py
 
 # Temp/working files
 output/errors.log
@@ -22,6 +24,12 @@ output/hr_verification_email.json
 output/neo_*.png
 output/hr_*.png
 output/debug_*.png
+output/all_contests.json
+output/found_contests.json
+output/contest_stats.json
+output/new_contest_challenges.json
+output/community_gaps.json
+output/tag_new_slugs.json
 work_api_token.json
 
 # Metadata/index files (not needed in repo)

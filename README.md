@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00FF41?style=for-the-badge&labelColor=0a0a0a)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.14-00FF41?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)](https://python.org)
-[![Questions](https://img.shields.io/badge/3%2C037-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
+[![Questions](https://img.shields.io/badge/3%2C226-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
 
 <br/>
 
@@ -43,8 +43,8 @@
 ┌─────────────────────────────────────────────────────────┐
 │  $ ./hackerrank-dumper --status                         │
 ├─────────────────────────────────────────────────────────┤
-│  [OK] Total Questions    : 3,037 (unique)               │
-│  [OK] Public Questions   : 2,088 (per-domain)           │
+│  [OK] Total Questions    : 3,226 (unique)               │
+│  [OK] Public Questions   : 2,277 (per-domain + contests) │
 │  [OK] Enterprise Qs      : 949 (HR Work Library)        │
 │  [OK] Domains            : 20 (per-domain folders)      │
 │  [OK] File Format        : Markdown (.md)               │
@@ -72,7 +72,7 @@
 │  fp/                      93 questions                  │
 │  java/                    64 questions                  │
 │  mathematics/            283 questions                  │
-│  misc/                   398 questions                  │
+│  misc/                   587 questions                  │
 │  python/                 115 questions                  │
 │  react/                   10 questions                  │
 │  regex/                   47 questions                  │
@@ -83,7 +83,7 @@
 │  tutorials/               92 questions                  │
 │  _enterprise/            949 questions (HR Work)        │
 ├─────────────────────────────────────────────────────────┤
-│  TOTAL: 3,037 unique questions | 20 DOMAINS             │
+│  TOTAL: 3,226 unique questions | 20 DOMAINS             │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -101,7 +101,7 @@
 │  DOMAIN                QUESTIONS    DIFFICULTY          │
 │  ────────────────────  ─────────    ──────────          │
 │  Algorithms               442       Easy → Hard         │
-│  Misc                     398       Easy → Hard         │
+│  Misc                     587       Easy → Hard         │
 │  Mathematics              283       Easy → Hard         │
 │  Data Structures          121       Easy → Hard         │
 │  Python                   115       Easy → Hard         │
@@ -120,7 +120,7 @@
 │  Security                  12       Easy → Hard         │
 │  React                     10       Easy → Hard         │
 │  ────────────────────  ─────────                        │
-│  TOTAL                 3,037 unique questions           │
+│  TOTAL                 3,226 unique questions           │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -193,19 +193,18 @@ import json
 with open("output/challenges.json") as f:
     challenges = json.load(f)
 
-# Find all Hard algorithms
-hard_algos = [
+# Find all algorithm problems
+algo_problems = [
     c for c in challenges
-    if "algorithms" in c.get("domains", [])
+    if c.get("domain") == "algorithms"
 ]
-print(f"Found {len(hard_algos)} algorithm problems")
+print(f"Found {len(algo_problems)} algorithm problems")
 
 # Count by domain
 from collections import Counter
 domain_counts = Counter()
 for c in challenges:
-    for d in c.get("domains", []):
-        domain_counts[d] += 1
+    domain_counts[c.get("domain", "unknown")] += 1
 for d, count in domain_counts.most_common():
     print(f"  {d}: {count}")
 ```
@@ -221,8 +220,8 @@ for d, count in domain_counts.most_common():
 │  FEATURES                                              │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  [✓] 3,037 unique questions across 20 domains           │
-│  [✓] 2,088 public practice + 949 enterprise questions   │
+│  [✓] 3,226 unique questions across 20 domains           │
+│  [✓] 2,277 public + 949 enterprise questions            │
 │  [✓] Per-domain folder organization                     │
 │  [✓] Problem metadata (difficulty, score, URL)          │
 │  [✓] Clean Markdown format                              │

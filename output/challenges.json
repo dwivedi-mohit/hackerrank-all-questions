@@ -5491,7 +5491,7 @@
   },
   {
     "slug": "misere-nim-1",
-    "name": "Mis\u00e8re Nim",
+    "name": "Misère Nim",
     "domain": "algorithms"
   },
   {
@@ -9421,7 +9421,7 @@
   },
   {
     "slug": "three-month-preparation-kit-misere-nim-1",
-    "name": "Mis\u00e8re Nim",
+    "name": "Misère Nim",
     "domain": "misc"
   },
   {
@@ -24316,7 +24316,7 @@
   },
   {
     "id": 160133,
-    "name": "What does the\u00a0Content Providers\u00a0component do in an Android application ?",
+    "name": "What does the Content Providers component do in an Android application ?",
     "slug": "1d1bp2sdd",
     "type": "mcq",
     "difficulty": "1",
@@ -24331,7 +24331,7 @@
   },
   {
     "id": 160088,
-    "name": "Which file system\u00a0is used to access kernel information about processes?",
+    "name": "Which file system is used to access kernel information about processes?",
     "slug": "lgk84iae",
     "type": "mcq",
     "difficulty": "1",
@@ -24623,7 +24623,7 @@
   },
   {
     "id": 133701,
-    "name": "If a run time error occurs when executing\u00a0a PL/SQL procedure, what happens?",
+    "name": "If a run time error occurs when executing a PL/SQL procedure, what happens?",
     "slug": "m0ati5a4",
     "type": "mcq",
     "difficulty": "1",
@@ -25415,5 +25415,950 @@
     ],
     "points": 5,
     "source": "enterprise_library"
+  },
+  {
+    "slug": "marble-cut",
+    "name": "Marble Cut",
+    "domain": "misc"
+  },
+  {
+    "slug": "permutation-of-natural-numbers",
+    "name": "Permutation of Natural Numbers",
+    "domain": "misc"
+  },
+  {
+    "slug": "lcs-deletion",
+    "name": "LCS Deletion",
+    "domain": "misc"
+  },
+  {
+    "slug": "sum-of-all-distances",
+    "name": "Sum of all Distances",
+    "domain": "misc"
+  },
+  {
+    "slug": "lcm-and-gcd",
+    "name": "LCM and GCD",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-magical-girl-and-spirits",
+    "name": "Magical Girl, Devu, and Spirits",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-and-minimizing-runs-of-a-sequence",
+    "name": "Devu and Minimizing Runs of a String",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-and-cool-graphs",
+    "name": "Devu and Cool Graphs",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-and-cycles-of-a-graph",
+    "name": "Devu and Cycles of a Graph",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-and-caterpillar-trees",
+    "name": "Devu and Caterpillar Trees",
+    "domain": "misc"
+  },
+  {
+    "slug": "rat-race",
+    "name": "Rat Race",
+    "domain": "misc"
+  },
+  {
+    "slug": "twisty-tuple",
+    "name": "Twisty Tuple",
+    "domain": "misc"
+  },
+  {
+    "slug": "contest-strategy",
+    "name": "Contest Strategy",
+    "domain": "misc"
+  },
+  {
+    "slug": "grand-tour",
+    "name": "Grand Tour",
+    "domain": "misc"
+  },
+  {
+    "slug": "introduction-to-topology",
+    "name": "Introduction to Topology",
+    "domain": "misc"
+  },
+  {
+    "slug": "counting-good-partitions-of-a-string",
+    "name": "Counting Good Partitions of a String",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-amit-and-good-integers",
+    "name": "Devu, Amit, and Good Integers",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-and-wonderful-game",
+    "name": "Devu and a Wonderful Game",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-and-a-journey-in-a-metro",
+    "name": "Devu and a Journey on Metro",
+    "domain": "misc"
+  },
+  {
+    "slug": "devu-and-beauty-of-a-string",
+    "name": "Devu and Beauty of a String",
+    "domain": "misc"
+  },
+  {
+    "slug": "sherlock-and-physics",
+    "name": "Sherlock and Physics",
+    "domain": "misc"
+  },
+  {
+    "slug": "sherlock-and-weird-sum",
+    "name": "Sherlock and Weird  Sum",
+    "domain": "misc"
+  },
+  {
+    "slug": "sherlock-and-unique-substrings",
+    "name": "Sherlock and Unique Substrings",
+    "domain": "misc"
+  },
+  {
+    "slug": "sherlock-and-queries-on-the-graph",
+    "name": "Sherlock and Queries on the Graph",
+    "domain": "misc"
+  },
+  {
+    "slug": "balanced-contest-or-not",
+    "name": "Balanced Contest or Not",
+    "domain": "misc"
+  },
+  {
+    "slug": "special-lcm-of-subarray",
+    "name": "Special LCM of Subarray",
+    "domain": "misc"
+  },
+  {
+    "slug": "uncompress-the-string",
+    "name": "Uncompress the String",
+    "domain": "misc"
+  },
+  {
+    "slug": "special-arrays-of-1-and-2",
+    "name": "Special Arrays of 1 and 2",
+    "domain": "misc"
+  },
+  {
+    "slug": "maximise-alternate-sum-subarray",
+    "name": "Maximize Alternate Sum Subarray",
+    "domain": "misc"
+  },
+  {
+    "slug": "bags-of-apples",
+    "name": "Bags of Apples",
+    "domain": "misc"
+  },
+  {
+    "slug": "binary-string",
+    "name": "Binary String",
+    "domain": "misc"
+  },
+  {
+    "slug": "squares-1",
+    "name": "Squares and Points",
+    "domain": "misc"
+  },
+  {
+    "slug": "grid-maze",
+    "name": "Grid Maze",
+    "domain": "misc"
+  },
+  {
+    "slug": "bus-company",
+    "name": "Bus Company",
+    "domain": "misc"
+  },
+  {
+    "slug": "xaero-and-a-binary-gift",
+    "name": "Xaero And A Binary Gift",
+    "domain": "misc"
+  },
+  {
+    "slug": "xaero-and-cities-lightening",
+    "name": "Xaero And Lighting the Cities",
+    "domain": "misc"
+  },
+  {
+    "slug": "xaero-and-palindromic-strings",
+    "name": "Xaero And Palindromic Strings",
+    "domain": "misc"
+  },
+  {
+    "slug": "xaero-and-breaking-enigma",
+    "name": "Xaero And The Enigma Hacking ",
+    "domain": "misc"
+  },
+  {
+    "slug": "xaero-and-game-of-thrones",
+    "name": "Xaero And Game Of Thrones",
+    "domain": "misc"
+  },
+  {
+    "slug": "voting-1",
+    "name": "Voting",
+    "domain": "misc"
+  },
+  {
+    "slug": "four-primes",
+    "name": "Four Primes",
+    "domain": "misc"
+  },
+  {
+    "slug": "sergey-and-homework",
+    "name": "Sergey and Homework",
+    "domain": "misc"
+  },
+  {
+    "slug": "solving-the-puzzle-1",
+    "name": "How Many Solvable Puzzles?",
+    "domain": "misc"
+  },
+  {
+    "slug": "shortest-path-revisited",
+    "name": "Shortest Path Revisited",
+    "domain": "misc"
+  },
+  {
+    "slug": "naughty-number",
+    "name": "Mystery Number",
+    "domain": "misc"
+  },
+  {
+    "slug": "falling-rocks",
+    "name": "Falling Rocks",
+    "domain": "misc"
+  },
+  {
+    "slug": "subsets-counting",
+    "name": "Subsets Counting",
+    "domain": "misc"
+  },
+  {
+    "slug": "tandem-repeats",
+    "name": "Tandem Repeats",
+    "domain": "misc"
+  },
+  {
+    "slug": "single-player-uno",
+    "name": "Single-Player UNO",
+    "domain": "misc"
+  },
+  {
+    "slug": "straight-flush",
+    "name": "Straight Flush",
+    "domain": "misc"
+  },
+  {
+    "slug": "tree-construction",
+    "name": "Tree Construction",
+    "domain": "misc"
+  },
+  {
+    "slug": "sorting-under-square-distance",
+    "name": "Sorting Under Square Distance",
+    "domain": "misc"
+  },
+  {
+    "slug": "binary-string-game",
+    "name": "Binary String Game",
+    "domain": "misc"
+  },
+  {
+    "slug": "falling-rocks-2",
+    "name": "Falling Rocks 2",
+    "domain": "misc"
+  },
+  {
+    "slug": "max-sum-subarray",
+    "name": "Max-Sum-Subarray",
+    "domain": "misc"
+  },
+  {
+    "slug": "longest-path",
+    "name": "Longest Path",
+    "domain": "misc"
+  },
+  {
+    "slug": "average-modulo",
+    "name": "Average Modulo",
+    "domain": "misc"
+  },
+  {
+    "slug": "intersecting-paths",
+    "name": "Intersecting Paths",
+    "domain": "misc"
+  },
+  {
+    "slug": "lis-arrays",
+    "name": "LIS Arrays",
+    "domain": "misc"
+  },
+  {
+    "slug": "lazy-mayor-and-lasers",
+    "name": "Lazy Mayor and Lasers",
+    "domain": "misc"
+  },
+  {
+    "slug": "next-topological-sorting",
+    "name": "Next Topological Ordering",
+    "domain": "misc"
+  },
+  {
+    "slug": "sherlock-and-dropping-ball",
+    "name": "Sherlock and the Dropping Ball",
+    "domain": "misc"
+  },
+  {
+    "slug": "sherlock-and-drawing",
+    "name": "Sherlock and Drawing",
+    "domain": "misc"
+  },
+  {
+    "slug": "lecture-notes",
+    "name": "Lecture Notes",
+    "domain": "misc"
+  },
+  {
+    "slug": "washing-plates",
+    "name": "Washing Plates",
+    "domain": "misc"
+  },
+  {
+    "slug": "arias-loops",
+    "name": "Aria's Loops",
+    "domain": "misc"
+  },
+  {
+    "slug": "the-forest-game",
+    "name": "The Forest Game",
+    "domain": "misc"
+  },
+  {
+    "slug": "tree-color",
+    "name": "Tree Color",
+    "domain": "misc"
+  },
+  {
+    "slug": "johns-subway-commute",
+    "name": "John's Subway Commute",
+    "domain": "misc"
+  },
+  {
+    "slug": "max-min-difference",
+    "name": "Minimizing the Max-Min Difference",
+    "domain": "misc"
+  },
+  {
+    "slug": "minimizing-the-summation",
+    "name": "Minimizing the Summation",
+    "domain": "misc"
+  },
+  {
+    "slug": "xor-point-weights-in-circles",
+    "name": "XOR Point Weights in Circles",
+    "domain": "misc"
+  },
+  {
+    "slug": "maximal-and-or-product",
+    "name": "Maximal And-Or Product",
+    "domain": "misc"
+  },
+  {
+    "slug": "k-inversion-permutations",
+    "name": "K-Inversion Permutations",
+    "domain": "misc"
+  },
+  {
+    "slug": "expected-tree-leaves",
+    "name": "Expected Tree Leaves",
+    "domain": "misc"
+  },
+  {
+    "slug": "mlp",
+    "name": "Minimum Edges in a Layered Graph",
+    "domain": "misc"
+  },
+  {
+    "slug": "permutation-possibility",
+    "name": "Permutation Possibility",
+    "domain": "misc"
+  },
+  {
+    "slug": "modular-game-of-numbers",
+    "name": "Modular Game of Numbers",
+    "domain": "misc"
+  },
+  {
+    "slug": "basketball-game",
+    "name": "Basketball Game",
+    "domain": "misc"
+  },
+  {
+    "slug": "watson-and-dag",
+    "name": "Watson and DAG",
+    "domain": "misc"
+  },
+  {
+    "slug": "summing-in-a-tree",
+    "name": "Summing in a Tree",
+    "domain": "misc"
+  },
+  {
+    "slug": "tight-arrays",
+    "name": "Tight Arrays",
+    "domain": "misc"
+  },
+  {
+    "slug": "walking-robots",
+    "name": "Walking Robots",
+    "domain": "misc"
+  },
+  {
+    "slug": "dreamplay-and-the-string-game",
+    "name": "Dreamplay and the String Game: Used",
+    "domain": "misc"
+  },
+  {
+    "slug": "almost-equal-rows",
+    "name": "Almost Equal Rows",
+    "domain": "misc"
+  },
+  {
+    "slug": "sum-on-subarrays",
+    "name": "Sum on Subarrays ",
+    "domain": "misc"
+  },
+  {
+    "slug": "calculate-array-size",
+    "name": "Calculate Array Size",
+    "domain": "misc"
+  },
+  {
+    "slug": "cartesian-country",
+    "name": "Cartesian Country",
+    "domain": "misc"
+  },
+  {
+    "slug": "summing-the-path-weights-between-nodes",
+    "name": "Summing the Path Weights Between Nodes",
+    "domain": "misc"
+  },
+  {
+    "slug": "bigger-arrays",
+    "name": "Bigger Arrays",
+    "domain": "misc"
+  },
+  {
+    "slug": "sorting-lists",
+    "name": "Sorting Lists",
+    "domain": "misc"
+  },
+  {
+    "slug": "hard-questions",
+    "name": "Hard Questions",
+    "domain": "misc"
+  },
+  {
+    "slug": "even-and-odd-boxes",
+    "name": "Even-odd Boxes",
+    "domain": "misc"
+  },
+  {
+    "slug": "cutting-the-string",
+    "name": "Cutting the String",
+    "domain": "misc"
+  },
+  {
+    "slug": "boxes-for-toys",
+    "name": "Boxes for Toys",
+    "domain": "misc"
+  },
+  {
+    "slug": "fair-cake-cutting",
+    "name": "Fair Cake Cutting",
+    "domain": "misc"
+  },
+  {
+    "slug": "charging-the-batteries",
+    "name": "Charging the Batteries",
+    "domain": "misc"
+  },
+  {
+    "slug": "train-trip",
+    "name": "Train Trip",
+    "domain": "misc"
+  },
+  {
+    "slug": "small-cubes",
+    "name": "Small Cubes",
+    "domain": "misc"
+  },
+  {
+    "slug": "testing-the-game",
+    "name": "Testing the Game",
+    "domain": "misc"
+  },
+  {
+    "slug": "car-show",
+    "name": "Car Show",
+    "domain": "misc"
+  },
+  {
+    "slug": "impressive-tree",
+    "name": "Impressive Tree",
+    "domain": "misc"
+  },
+  {
+    "slug": "train-ticket",
+    "name": "Train Ticket",
+    "domain": "misc"
+  },
+  {
+    "slug": "cut-board",
+    "name": "Cut Board",
+    "domain": "misc"
+  },
+  {
+    "slug": "carpet-game",
+    "name": "Carpet Game",
+    "domain": "misc"
+  },
+  {
+    "slug": "optimal-bus-stops",
+    "name": "Optimal Bus Stops",
+    "domain": "misc"
+  },
+  {
+    "slug": "diagonal-filling",
+    "name": "Diagonal Filling",
+    "domain": "misc"
+  },
+  {
+    "slug": "weather-forecast-quality",
+    "name": "Weather Forecast Quality",
+    "domain": "misc"
+  },
+  {
+    "slug": "bus-stops",
+    "name": "Bus Stops",
+    "domain": "misc"
+  },
+  {
+    "slug": "changing-numbers",
+    "name": "Changing Numbers",
+    "domain": "misc"
+  },
+  {
+    "slug": "broken-robots",
+    "name": "Broken Robots",
+    "domain": "misc"
+  },
+  {
+    "slug": "travel-to-party",
+    "name": "Travel to Party",
+    "domain": "misc"
+  },
+  {
+    "slug": "swapping-in-an-array",
+    "name": "Swapping in an Array",
+    "domain": "misc"
+  },
+  {
+    "slug": "minimize-the-sum",
+    "name": "Minimize the Sum",
+    "domain": "misc"
+  },
+  {
+    "slug": "tower-construction",
+    "name": "Tower Construction",
+    "domain": "misc"
+  },
+  {
+    "slug": "distribution",
+    "name": "Special Set Pairs",
+    "domain": "misc"
+  },
+  {
+    "slug": "transmission-towers",
+    "name": "Transmission Towers",
+    "domain": "misc"
+  },
+  {
+    "slug": "golu-and-array",
+    "name": "A Perfect Array",
+    "domain": "misc"
+  },
+  {
+    "slug": "bokam-and-his-gcd",
+    "name": "Subset GCD",
+    "domain": "misc"
+  },
+  {
+    "slug": "shashank-and-nim",
+    "name": "Shashank and NIM",
+    "domain": "misc"
+  },
+  {
+    "slug": "modular-queries",
+    "name": "Modular Queries",
+    "domain": "misc"
+  },
+  {
+    "slug": "high-security-strings",
+    "name": "High Security Strings",
+    "domain": "misc"
+  },
+  {
+    "slug": "heads-or-tails",
+    "name": "Maximum Streaks",
+    "domain": "misc"
+  },
+  {
+    "slug": "playing-cards-1-1",
+    "name": "Determine the Winner",
+    "domain": "misc"
+  },
+  {
+    "slug": "charity",
+    "name": "The Fundraising problem ",
+    "domain": "misc"
+  },
+  {
+    "slug": "good-binary-string",
+    "name": "Valid Binary String",
+    "domain": "misc"
+  },
+  {
+    "slug": "arrange-students",
+    "name": "Arrange Students",
+    "domain": "misc"
+  },
+  {
+    "slug": "optimal-path-1",
+    "name": "Optimal Network Routing",
+    "domain": "misc"
+  },
+  {
+    "slug": "maximum-or-1",
+    "name": "Number of integers",
+    "domain": "misc"
+  },
+  {
+    "slug": "the-ultimate-question",
+    "name": "The Ultimate Question",
+    "domain": "misc"
+  },
+  {
+    "slug": "divyam-and-sorted-list",
+    "name": "Related Species",
+    "domain": "misc"
+  },
+  {
+    "slug": "goty-and-the-play",
+    "name": "Gretchen and the Play",
+    "domain": "misc"
+  },
+  {
+    "slug": "flatland-roads",
+    "name": "Flatland Roads",
+    "domain": "misc"
+  },
+  {
+    "slug": "hats",
+    "name": "Hat merchant",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler001",
+    "name": "Project Euler #1: Multiples of 3 and 5",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler002",
+    "name": "Project Euler #2: Even Fibonacci numbers",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler003",
+    "name": "Project Euler #3: Largest prime factor",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler004",
+    "name": "Project Euler #4: Largest palindrome product",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler005",
+    "name": "Project Euler #5: Smallest multiple",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler006",
+    "name": "Project Euler #6: Sum square difference",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler007",
+    "name": "Project Euler #7: 10001st prime",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler008",
+    "name": "Project Euler #8: Largest product in a series",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler009",
+    "name": "Project Euler #9: Special Pythagorean triplet",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler010",
+    "name": "Project Euler #10: Summation of primes",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler011",
+    "name": "Project Euler #11: Largest product in a grid",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler012",
+    "name": "Project Euler #12: Highly divisible triangular number",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler013",
+    "name": "Project Euler #13: Large sum",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler014",
+    "name": "Project Euler #14: Longest Collatz sequence",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler015",
+    "name": "Project Euler #15: Lattice paths",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler016",
+    "name": "Project Euler #16: Power digit sum",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler017",
+    "name": "Project Euler #17: Number to Words",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler018",
+    "name": "Project Euler #18: Maximum path sum I",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler019",
+    "name": "Project Euler #19: Counting Sundays",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler020",
+    "name": "Project Euler #20: Factorial digit sum",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler021",
+    "name": "Project Euler #21: Amicable numbers",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler022",
+    "name": "Project Euler #22: Names scores",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler023",
+    "name": "Project Euler #23: Non-abundant sums",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler024",
+    "name": "Project Euler #24: Lexicographic permutations",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler025",
+    "name": "Project Euler #25: N-digit Fibonacci number",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler026",
+    "name": "Project Euler #26: Reciprocal cycles",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler027",
+    "name": "Project Euler #27: Quadratic primes",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler028",
+    "name": "Project Euler #28: Number spiral diagonals",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler029",
+    "name": "Project Euler #29: Distinct powers",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler030",
+    "name": "Project Euler #30: Digit Nth powers",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler031",
+    "name": "Project Euler #31: Coin sums",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler032",
+    "name": "Project Euler #32: Pandigital products",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler033",
+    "name": "Project Euler #33: Digit canceling fractions",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler034",
+    "name": "Project Euler #34: Digit factorials",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler035",
+    "name": "Project Euler #35: Circular primes",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler036",
+    "name": "Project Euler #36: Double-base palindromes",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler037",
+    "name": "Project Euler #37: Truncatable primes",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler038",
+    "name": "Project Euler #38: Pandigital multiples",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler039",
+    "name": "Project Euler #39: Integer right triangles",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler040",
+    "name": "Project Euler #40: Champernowne's constant",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler041",
+    "name": "Project Euler #41: Pandigital prime",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler042",
+    "name": "Project Euler #42: Coded triangle numbers",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler043",
+    "name": "Project Euler #43: Sub-string divisibility",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler044",
+    "name": "Project Euler #44: Pentagon numbers",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler045",
+    "name": "Project Euler #45: Triangular, pentagonal, and hexagonal",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler046",
+    "name": "Project Euler #46: Goldbach's other conjecture",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler047",
+    "name": "Project Euler #47: Distinct primes factors",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler048",
+    "name": "Project Euler #48: Self powers",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler049",
+    "name": "Project Euler #49: Prime permutations",
+    "domain": "misc"
+  },
+  {
+    "slug": "euler050",
+    "name": "Project Euler #50: Consecutive prime sum",
+    "domain": "misc"
+  },
+  {
+    "slug": "vowels-in-the-back",
+    "name": "Vowels in the Back",
+    "domain": "misc"
+  },
+  {
+    "slug": "balanced-strings",
+    "name": "Balanced Strings",
+    "domain": "misc"
+  },
+  {
+    "slug": "match-maker",
+    "name": "Match Maker",
+    "domain": "misc"
+  },
+  {
+    "slug": "winning-tic-tac-toe",
+    "name": "Winning Tic Tac Toe",
+    "domain": "misc"
+  },
+  {
+    "slug": "restricted-repetitions",
+    "name": "Restricted Repetitions",
+    "domain": "misc"
   }
 ]

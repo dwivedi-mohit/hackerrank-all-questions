@@ -5491,7 +5491,7 @@
   },
   {
     "slug": "misere-nim-1",
-    "name": "Mis\u00e8re Nim",
+    "name": "Misère Nim",
     "domain": "algorithms"
   },
   {
@@ -9421,7 +9421,7 @@
   },
   {
     "slug": "three-month-preparation-kit-misere-nim-1",
-    "name": "Mis\u00e8re Nim",
+    "name": "Misère Nim",
     "domain": "misc"
   },
   {
@@ -22556,7 +22556,7 @@
   },
   {
     "id": 160133,
-    "name": "What does the\u00a0Content Providers\u00a0component do in an Android application ?",
+    "name": "What does the Content Providers component do in an Android application ?",
     "type": "mcq",
     "difficulty": "1",
     "domain": "enterprise",
@@ -22569,7 +22569,7 @@
   },
   {
     "id": 160088,
-    "name": "Which file system\u00a0is used to access kernel information about processes?",
+    "name": "Which file system is used to access kernel information about processes?",
     "type": "mcq",
     "difficulty": "1",
     "domain": "enterprise",
@@ -22823,7 +22823,7 @@
   },
   {
     "id": 133701,
-    "name": "If a run time error occurs when executing\u00a0a PL/SQL procedure, what happens?",
+    "name": "If a run time error occurs when executing a PL/SQL procedure, what happens?",
     "type": "mcq",
     "difficulty": "1",
     "domain": "enterprise",
@@ -23517,5 +23517,1517 @@
       "Medium"
     ],
     "source": "enterprise_library"
+  },
+  {
+    "slug": "marble-cut",
+    "name": "Marble Cut",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/marble-cut"
+  },
+  {
+    "slug": "permutation-of-natural-numbers",
+    "name": "Permutation of Natural Numbers",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/permutation-of-natural-numbers"
+  },
+  {
+    "slug": "lcs-deletion",
+    "name": "LCS Deletion",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/lcs-deletion"
+  },
+  {
+    "slug": "sum-of-all-distances",
+    "name": "Sum of all Distances",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/sum-of-all-distances"
+  },
+  {
+    "slug": "lcm-and-gcd",
+    "name": "LCM and GCD",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 150,
+    "url": "https://www.hackerrank.com/challenges/lcm-and-gcd"
+  },
+  {
+    "slug": "devu-magical-girl-and-spirits",
+    "name": "Magical Girl, Devu, and Spirits",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 25,
+    "url": "https://www.hackerrank.com/challenges/devu-magical-girl-and-spirits"
+  },
+  {
+    "slug": "devu-and-minimizing-runs-of-a-sequence",
+    "name": "Devu and Minimizing Runs of a String",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/devu-and-minimizing-runs-of-a-sequence"
+  },
+  {
+    "slug": "devu-and-cool-graphs",
+    "name": "Devu and Cool Graphs",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 75,
+    "url": "https://www.hackerrank.com/challenges/devu-and-cool-graphs"
+  },
+  {
+    "slug": "devu-and-cycles-of-a-graph",
+    "name": "Devu and Cycles of a Graph",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/devu-and-cycles-of-a-graph"
+  },
+  {
+    "slug": "devu-and-caterpillar-trees",
+    "name": "Devu and Caterpillar Trees",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 150,
+    "url": "https://www.hackerrank.com/challenges/devu-and-caterpillar-trees"
+  },
+  {
+    "slug": "rat-race",
+    "name": "Rat Race",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/rat-race"
+  },
+  {
+    "slug": "twisty-tuple",
+    "name": "Twisty Tuple",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 60,
+    "url": "https://www.hackerrank.com/challenges/twisty-tuple"
+  },
+  {
+    "slug": "contest-strategy",
+    "name": "Contest Strategy",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/contest-strategy"
+  },
+  {
+    "slug": "grand-tour",
+    "name": "Grand Tour",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/grand-tour"
+  },
+  {
+    "slug": "introduction-to-topology",
+    "name": "Introduction to Topology",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 120,
+    "url": "https://www.hackerrank.com/challenges/introduction-to-topology"
+  },
+  {
+    "slug": "counting-good-partitions-of-a-string",
+    "name": "Counting Good Partitions of a String",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/counting-good-partitions-of-a-string"
+  },
+  {
+    "slug": "devu-amit-and-good-integers",
+    "name": "Devu, Amit, and Good Integers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/devu-amit-and-good-integers"
+  },
+  {
+    "slug": "devu-and-wonderful-game",
+    "name": "Devu and a Wonderful Game",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 40,
+    "url": "https://www.hackerrank.com/challenges/devu-and-wonderful-game"
+  },
+  {
+    "slug": "devu-and-a-journey-in-a-metro",
+    "name": "Devu and a Journey on Metro",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/devu-and-a-journey-in-a-metro"
+  },
+  {
+    "slug": "devu-and-beauty-of-a-string",
+    "name": "Devu and Beauty of a String",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/devu-and-beauty-of-a-string"
+  },
+  {
+    "slug": "sherlock-and-physics",
+    "name": "Sherlock and Physics",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 40,
+    "url": "https://www.hackerrank.com/challenges/sherlock-and-physics"
+  },
+  {
+    "slug": "sherlock-and-weird-sum",
+    "name": "Sherlock and Weird  Sum",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/sherlock-and-weird-sum"
+  },
+  {
+    "slug": "sherlock-and-unique-substrings",
+    "name": "Sherlock and Unique Substrings",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/sherlock-and-unique-substrings"
+  },
+  {
+    "slug": "sherlock-and-queries-on-the-graph",
+    "name": "Sherlock and Queries on the Graph",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 120,
+    "url": "https://www.hackerrank.com/challenges/sherlock-and-queries-on-the-graph"
+  },
+  {
+    "slug": "balanced-contest-or-not",
+    "name": "Balanced Contest or Not",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/balanced-contest-or-not"
+  },
+  {
+    "slug": "special-lcm-of-subarray",
+    "name": "Special LCM of Subarray",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 40,
+    "url": "https://www.hackerrank.com/challenges/special-lcm-of-subarray"
+  },
+  {
+    "slug": "uncompress-the-string",
+    "name": "Uncompress the String",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/uncompress-the-string"
+  },
+  {
+    "slug": "special-arrays-of-1-and-2",
+    "name": "Special Arrays of 1 and 2",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/special-arrays-of-1-and-2"
+  },
+  {
+    "slug": "maximise-alternate-sum-subarray",
+    "name": "Maximize Alternate Sum Subarray",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/maximise-alternate-sum-subarray"
+  },
+  {
+    "slug": "bags-of-apples",
+    "name": "Bags of Apples",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/bags-of-apples"
+  },
+  {
+    "slug": "binary-string",
+    "name": "Binary String",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/binary-string"
+  },
+  {
+    "slug": "squares-1",
+    "name": "Squares and Points",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/squares-1"
+  },
+  {
+    "slug": "grid-maze",
+    "name": "Grid Maze",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/grid-maze"
+  },
+  {
+    "slug": "bus-company",
+    "name": "Bus Company",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 120,
+    "url": "https://www.hackerrank.com/challenges/bus-company"
+  },
+  {
+    "slug": "xaero-and-a-binary-gift",
+    "name": "Xaero And A Binary Gift",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/xaero-and-a-binary-gift"
+  },
+  {
+    "slug": "xaero-and-cities-lightening",
+    "name": "Xaero And Lighting the Cities",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/xaero-and-cities-lightening"
+  },
+  {
+    "slug": "xaero-and-palindromic-strings",
+    "name": "Xaero And Palindromic Strings",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 60,
+    "url": "https://www.hackerrank.com/challenges/xaero-and-palindromic-strings"
+  },
+  {
+    "slug": "xaero-and-breaking-enigma",
+    "name": "Xaero And The Enigma Hacking ",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/xaero-and-breaking-enigma"
+  },
+  {
+    "slug": "xaero-and-game-of-thrones",
+    "name": "Xaero And Game Of Thrones",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 90,
+    "url": "https://www.hackerrank.com/challenges/xaero-and-game-of-thrones"
+  },
+  {
+    "slug": "voting-1",
+    "name": "Voting",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/voting-1"
+  },
+  {
+    "slug": "four-primes",
+    "name": "Four Primes",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/four-primes"
+  },
+  {
+    "slug": "sergey-and-homework",
+    "name": "Sergey and Homework",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/sergey-and-homework"
+  },
+  {
+    "slug": "solving-the-puzzle-1",
+    "name": "How Many Solvable Puzzles?",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/solving-the-puzzle-1"
+  },
+  {
+    "slug": "shortest-path-revisited",
+    "name": "Shortest Path Revisited",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 120,
+    "url": "https://www.hackerrank.com/challenges/shortest-path-revisited"
+  },
+  {
+    "slug": "naughty-number",
+    "name": "Mystery Number",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/naughty-number"
+  },
+  {
+    "slug": "falling-rocks",
+    "name": "Falling Rocks",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/falling-rocks"
+  },
+  {
+    "slug": "subsets-counting",
+    "name": "Subsets Counting",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/subsets-counting"
+  },
+  {
+    "slug": "tandem-repeats",
+    "name": "Tandem Repeats",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/tandem-repeats"
+  },
+  {
+    "slug": "single-player-uno",
+    "name": "Single-Player UNO",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 120,
+    "url": "https://www.hackerrank.com/challenges/single-player-uno"
+  },
+  {
+    "slug": "straight-flush",
+    "name": "Straight Flush",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/straight-flush"
+  },
+  {
+    "slug": "tree-construction",
+    "name": "Tree Construction",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/tree-construction"
+  },
+  {
+    "slug": "sorting-under-square-distance",
+    "name": "Sorting Under Square Distance",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/sorting-under-square-distance"
+  },
+  {
+    "slug": "binary-string-game",
+    "name": "Binary String Game",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/binary-string-game"
+  },
+  {
+    "slug": "falling-rocks-2",
+    "name": "Falling Rocks 2",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 120,
+    "url": "https://www.hackerrank.com/challenges/falling-rocks-2"
+  },
+  {
+    "slug": "max-sum-subarray",
+    "name": "Max-Sum-Subarray",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/max-sum-subarray"
+  },
+  {
+    "slug": "longest-path",
+    "name": "Longest Path",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/longest-path"
+  },
+  {
+    "slug": "average-modulo",
+    "name": "Average Modulo",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/average-modulo"
+  },
+  {
+    "slug": "intersecting-paths",
+    "name": "Intersecting Paths",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/intersecting-paths"
+  },
+  {
+    "slug": "lis-arrays",
+    "name": "LIS Arrays",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 120,
+    "url": "https://www.hackerrank.com/challenges/lis-arrays"
+  },
+  {
+    "slug": "lazy-mayor-and-lasers",
+    "name": "Lazy Mayor and Lasers",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/lazy-mayor-and-lasers"
+  },
+  {
+    "slug": "next-topological-sorting",
+    "name": "Next Topological Ordering",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/next-topological-sorting"
+  },
+  {
+    "slug": "sherlock-and-dropping-ball",
+    "name": "Sherlock and the Dropping Ball",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/sherlock-and-dropping-ball"
+  },
+  {
+    "slug": "sherlock-and-drawing",
+    "name": "Sherlock and Drawing",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/sherlock-and-drawing"
+  },
+  {
+    "slug": "lecture-notes",
+    "name": "Lecture Notes",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/lecture-notes"
+  },
+  {
+    "slug": "washing-plates",
+    "name": "Washing Plates",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/washing-plates"
+  },
+  {
+    "slug": "arias-loops",
+    "name": "Aria's Loops",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/arias-loops"
+  },
+  {
+    "slug": "the-forest-game",
+    "name": "The Forest Game",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/the-forest-game"
+  },
+  {
+    "slug": "tree-color",
+    "name": "Tree Color",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/tree-color"
+  },
+  {
+    "slug": "johns-subway-commute",
+    "name": "John's Subway Commute",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/johns-subway-commute"
+  },
+  {
+    "slug": "max-min-difference",
+    "name": "Minimizing the Max-Min Difference",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/max-min-difference"
+  },
+  {
+    "slug": "minimizing-the-summation",
+    "name": "Minimizing the Summation",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/minimizing-the-summation"
+  },
+  {
+    "slug": "xor-point-weights-in-circles",
+    "name": "XOR Point Weights in Circles",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/xor-point-weights-in-circles"
+  },
+  {
+    "slug": "maximal-and-or-product",
+    "name": "Maximal And-Or Product",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/maximal-and-or-product"
+  },
+  {
+    "slug": "k-inversion-permutations",
+    "name": "K-Inversion Permutations",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/k-inversion-permutations"
+  },
+  {
+    "slug": "expected-tree-leaves",
+    "name": "Expected Tree Leaves",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/expected-tree-leaves"
+  },
+  {
+    "slug": "mlp",
+    "name": "Minimum Edges in a Layered Graph",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/mlp"
+  },
+  {
+    "slug": "permutation-possibility",
+    "name": "Permutation Possibility",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 15,
+    "url": "https://www.hackerrank.com/challenges/permutation-possibility"
+  },
+  {
+    "slug": "modular-game-of-numbers",
+    "name": "Modular Game of Numbers",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/modular-game-of-numbers"
+  },
+  {
+    "slug": "basketball-game",
+    "name": "Basketball Game",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 45,
+    "url": "https://www.hackerrank.com/challenges/basketball-game"
+  },
+  {
+    "slug": "watson-and-dag",
+    "name": "Watson and DAG",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 65,
+    "url": "https://www.hackerrank.com/challenges/watson-and-dag"
+  },
+  {
+    "slug": "summing-in-a-tree",
+    "name": "Summing in a Tree",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/summing-in-a-tree"
+  },
+  {
+    "slug": "tight-arrays",
+    "name": "Tight Arrays",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 15,
+    "url": "https://www.hackerrank.com/challenges/tight-arrays"
+  },
+  {
+    "slug": "walking-robots",
+    "name": "Walking Robots",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/walking-robots"
+  },
+  {
+    "slug": "dreamplay-and-the-string-game",
+    "name": "Dreamplay and the String Game: Used",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 55,
+    "url": "https://www.hackerrank.com/challenges/dreamplay-and-the-string-game"
+  },
+  {
+    "slug": "almost-equal-rows",
+    "name": "Almost Equal Rows",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 65,
+    "url": "https://www.hackerrank.com/challenges/almost-equal-rows"
+  },
+  {
+    "slug": "sum-on-subarrays",
+    "name": "Sum on Subarrays ",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 85,
+    "url": "https://www.hackerrank.com/challenges/sum-on-subarrays"
+  },
+  {
+    "slug": "calculate-array-size",
+    "name": "Calculate Array Size",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 15,
+    "url": "https://www.hackerrank.com/challenges/calculate-array-size"
+  },
+  {
+    "slug": "cartesian-country",
+    "name": "Cartesian Country",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/cartesian-country"
+  },
+  {
+    "slug": "summing-the-path-weights-between-nodes",
+    "name": "Summing the Path Weights Between Nodes",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/summing-the-path-weights-between-nodes"
+  },
+  {
+    "slug": "bigger-arrays",
+    "name": "Bigger Arrays",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 70,
+    "url": "https://www.hackerrank.com/challenges/bigger-arrays"
+  },
+  {
+    "slug": "sorting-lists",
+    "name": "Sorting Lists",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 85,
+    "url": "https://www.hackerrank.com/challenges/sorting-lists"
+  },
+  {
+    "slug": "hard-questions",
+    "name": "Hard Questions",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 15,
+    "url": "https://www.hackerrank.com/challenges/hard-questions"
+  },
+  {
+    "slug": "even-and-odd-boxes",
+    "name": "Even-odd Boxes",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/even-and-odd-boxes"
+  },
+  {
+    "slug": "cutting-the-string",
+    "name": "Cutting the String",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 55,
+    "url": "https://www.hackerrank.com/challenges/cutting-the-string"
+  },
+  {
+    "slug": "boxes-for-toys",
+    "name": "Boxes for Toys",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 85,
+    "url": "https://www.hackerrank.com/challenges/boxes-for-toys"
+  },
+  {
+    "slug": "fair-cake-cutting",
+    "name": "Fair Cake Cutting",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 15,
+    "url": "https://www.hackerrank.com/challenges/fair-cake-cutting"
+  },
+  {
+    "slug": "charging-the-batteries",
+    "name": "Charging the Batteries",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/charging-the-batteries"
+  },
+  {
+    "slug": "train-trip",
+    "name": "Train Trip",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 60,
+    "url": "https://www.hackerrank.com/challenges/train-trip"
+  },
+  {
+    "slug": "small-cubes",
+    "name": "Small Cubes",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 60,
+    "url": "https://www.hackerrank.com/challenges/small-cubes"
+  },
+  {
+    "slug": "testing-the-game",
+    "name": "Testing the Game",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 65,
+    "url": "https://www.hackerrank.com/challenges/testing-the-game"
+  },
+  {
+    "slug": "car-show",
+    "name": "Car Show",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/car-show"
+  },
+  {
+    "slug": "impressive-tree",
+    "name": "Impressive Tree",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 90,
+    "url": "https://www.hackerrank.com/challenges/impressive-tree"
+  },
+  {
+    "slug": "train-ticket",
+    "name": "Train Ticket",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 10,
+    "url": "https://www.hackerrank.com/challenges/train-ticket"
+  },
+  {
+    "slug": "cut-board",
+    "name": "Cut Board",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/cut-board"
+  },
+  {
+    "slug": "carpet-game",
+    "name": "Carpet Game",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 40,
+    "url": "https://www.hackerrank.com/challenges/carpet-game"
+  },
+  {
+    "slug": "optimal-bus-stops",
+    "name": "Optimal Bus Stops",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 65,
+    "url": "https://www.hackerrank.com/challenges/optimal-bus-stops"
+  },
+  {
+    "slug": "diagonal-filling",
+    "name": "Diagonal Filling",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 75,
+    "url": "https://www.hackerrank.com/challenges/diagonal-filling"
+  },
+  {
+    "slug": "weather-forecast-quality",
+    "name": "Weather Forecast Quality",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 15,
+    "url": "https://www.hackerrank.com/challenges/weather-forecast-quality"
+  },
+  {
+    "slug": "bus-stops",
+    "name": "Bus Stops",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 45,
+    "url": "https://www.hackerrank.com/challenges/bus-stops"
+  },
+  {
+    "slug": "changing-numbers",
+    "name": "Changing Numbers",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 55,
+    "url": "https://www.hackerrank.com/challenges/changing-numbers"
+  },
+  {
+    "slug": "broken-robots",
+    "name": "Broken Robots",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 65,
+    "url": "https://www.hackerrank.com/challenges/broken-robots"
+  },
+  {
+    "slug": "travel-to-party",
+    "name": "Travel to Party",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 85,
+    "url": "https://www.hackerrank.com/challenges/travel-to-party"
+  },
+  {
+    "slug": "swapping-in-an-array",
+    "name": "Swapping in an Array",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/swapping-in-an-array"
+  },
+  {
+    "slug": "minimize-the-sum",
+    "name": "Minimize the Sum",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/minimize-the-sum"
+  },
+  {
+    "slug": "tower-construction",
+    "name": "Tower Construction",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 45,
+    "url": "https://www.hackerrank.com/challenges/tower-construction"
+  },
+  {
+    "slug": "distribution",
+    "name": "Special Set Pairs",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 65,
+    "url": "https://www.hackerrank.com/challenges/distribution"
+  },
+  {
+    "slug": "transmission-towers",
+    "name": "Transmission Towers",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 85,
+    "url": "https://www.hackerrank.com/challenges/transmission-towers"
+  },
+  {
+    "slug": "golu-and-array",
+    "name": "A Perfect Array",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/golu-and-array"
+  },
+  {
+    "slug": "bokam-and-his-gcd",
+    "name": "Subset GCD",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/bokam-and-his-gcd"
+  },
+  {
+    "slug": "shashank-and-nim",
+    "name": "Shashank and NIM",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 60,
+    "url": "https://www.hackerrank.com/challenges/shashank-and-nim"
+  },
+  {
+    "slug": "modular-queries",
+    "name": "Modular Queries",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/modular-queries"
+  },
+  {
+    "slug": "high-security-strings",
+    "name": "High Security Strings",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 10,
+    "url": "https://www.hackerrank.com/challenges/high-security-strings"
+  },
+  {
+    "slug": "heads-or-tails",
+    "name": "Maximum Streaks",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 10,
+    "url": "https://www.hackerrank.com/challenges/heads-or-tails"
+  },
+  {
+    "slug": "playing-cards-1-1",
+    "name": "Determine the Winner",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/playing-cards-1-1"
+  },
+  {
+    "slug": "charity",
+    "name": "The Fundraising problem ",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/charity"
+  },
+  {
+    "slug": "good-binary-string",
+    "name": "Valid Binary String",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 10,
+    "url": "https://www.hackerrank.com/challenges/good-binary-string"
+  },
+  {
+    "slug": "arrange-students",
+    "name": "Arrange Students",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 20,
+    "url": "https://www.hackerrank.com/challenges/arrange-students"
+  },
+  {
+    "slug": "optimal-path-1",
+    "name": "Optimal Network Routing",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/optimal-path-1"
+  },
+  {
+    "slug": "maximum-or-1",
+    "name": "Number of integers",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 40,
+    "url": "https://www.hackerrank.com/challenges/maximum-or-1"
+  },
+  {
+    "slug": "the-ultimate-question",
+    "name": "The Ultimate Question",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 15,
+    "url": "https://www.hackerrank.com/challenges/the-ultimate-question"
+  },
+  {
+    "slug": "divyam-and-sorted-list",
+    "name": "Related Species",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 30,
+    "url": "https://www.hackerrank.com/challenges/divyam-and-sorted-list"
+  },
+  {
+    "slug": "goty-and-the-play",
+    "name": "Gretchen and the Play",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 50,
+    "url": "https://www.hackerrank.com/challenges/goty-and-the-play"
+  },
+  {
+    "slug": "flatland-roads",
+    "name": "Flatland Roads",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 75,
+    "url": "https://www.hackerrank.com/challenges/flatland-roads"
+  },
+  {
+    "slug": "hats",
+    "name": "Hat merchant",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/hats"
+  },
+  {
+    "slug": "euler001",
+    "name": "Project Euler #1: Multiples of 3 and 5",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler001"
+  },
+  {
+    "slug": "euler002",
+    "name": "Project Euler #2: Even Fibonacci numbers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler002"
+  },
+  {
+    "slug": "euler003",
+    "name": "Project Euler #3: Largest prime factor",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler003"
+  },
+  {
+    "slug": "euler004",
+    "name": "Project Euler #4: Largest palindrome product",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler004"
+  },
+  {
+    "slug": "euler005",
+    "name": "Project Euler #5: Smallest multiple",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler005"
+  },
+  {
+    "slug": "euler006",
+    "name": "Project Euler #6: Sum square difference",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler006"
+  },
+  {
+    "slug": "euler007",
+    "name": "Project Euler #7: 10001st prime",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler007"
+  },
+  {
+    "slug": "euler008",
+    "name": "Project Euler #8: Largest product in a series",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler008"
+  },
+  {
+    "slug": "euler009",
+    "name": "Project Euler #9: Special Pythagorean triplet",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler009"
+  },
+  {
+    "slug": "euler010",
+    "name": "Project Euler #10: Summation of primes",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler010"
+  },
+  {
+    "slug": "euler011",
+    "name": "Project Euler #11: Largest product in a grid",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler011"
+  },
+  {
+    "slug": "euler012",
+    "name": "Project Euler #12: Highly divisible triangular number",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler012"
+  },
+  {
+    "slug": "euler013",
+    "name": "Project Euler #13: Large sum",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler013"
+  },
+  {
+    "slug": "euler014",
+    "name": "Project Euler #14: Longest Collatz sequence",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler014"
+  },
+  {
+    "slug": "euler015",
+    "name": "Project Euler #15: Lattice paths",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler015"
+  },
+  {
+    "slug": "euler016",
+    "name": "Project Euler #16: Power digit sum",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler016"
+  },
+  {
+    "slug": "euler017",
+    "name": "Project Euler #17: Number to Words",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler017"
+  },
+  {
+    "slug": "euler018",
+    "name": "Project Euler #18: Maximum path sum I",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler018"
+  },
+  {
+    "slug": "euler019",
+    "name": "Project Euler #19: Counting Sundays",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler019"
+  },
+  {
+    "slug": "euler020",
+    "name": "Project Euler #20: Factorial digit sum",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler020"
+  },
+  {
+    "slug": "euler021",
+    "name": "Project Euler #21: Amicable numbers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler021"
+  },
+  {
+    "slug": "euler022",
+    "name": "Project Euler #22: Names scores",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler022"
+  },
+  {
+    "slug": "euler023",
+    "name": "Project Euler #23: Non-abundant sums",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler023"
+  },
+  {
+    "slug": "euler024",
+    "name": "Project Euler #24: Lexicographic permutations",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler024"
+  },
+  {
+    "slug": "euler025",
+    "name": "Project Euler #25: N-digit Fibonacci number",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler025"
+  },
+  {
+    "slug": "euler026",
+    "name": "Project Euler #26: Reciprocal cycles",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler026"
+  },
+  {
+    "slug": "euler027",
+    "name": "Project Euler #27: Quadratic primes",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler027"
+  },
+  {
+    "slug": "euler028",
+    "name": "Project Euler #28: Number spiral diagonals",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler028"
+  },
+  {
+    "slug": "euler029",
+    "name": "Project Euler #29: Distinct powers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler029"
+  },
+  {
+    "slug": "euler030",
+    "name": "Project Euler #30: Digit Nth powers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler030"
+  },
+  {
+    "slug": "euler031",
+    "name": "Project Euler #31: Coin sums",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler031"
+  },
+  {
+    "slug": "euler032",
+    "name": "Project Euler #32: Pandigital products",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler032"
+  },
+  {
+    "slug": "euler033",
+    "name": "Project Euler #33: Digit canceling fractions",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler033"
+  },
+  {
+    "slug": "euler034",
+    "name": "Project Euler #34: Digit factorials",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler034"
+  },
+  {
+    "slug": "euler035",
+    "name": "Project Euler #35: Circular primes",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler035"
+  },
+  {
+    "slug": "euler036",
+    "name": "Project Euler #36: Double-base palindromes",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler036"
+  },
+  {
+    "slug": "euler037",
+    "name": "Project Euler #37: Truncatable primes",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler037"
+  },
+  {
+    "slug": "euler038",
+    "name": "Project Euler #38: Pandigital multiples",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler038"
+  },
+  {
+    "slug": "euler039",
+    "name": "Project Euler #39: Integer right triangles",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler039"
+  },
+  {
+    "slug": "euler040",
+    "name": "Project Euler #40: Champernowne's constant",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler040"
+  },
+  {
+    "slug": "euler041",
+    "name": "Project Euler #41: Pandigital prime",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler041"
+  },
+  {
+    "slug": "euler042",
+    "name": "Project Euler #42: Coded triangle numbers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler042"
+  },
+  {
+    "slug": "euler043",
+    "name": "Project Euler #43: Sub-string divisibility",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler043"
+  },
+  {
+    "slug": "euler044",
+    "name": "Project Euler #44: Pentagon numbers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler044"
+  },
+  {
+    "slug": "euler045",
+    "name": "Project Euler #45: Triangular, pentagonal, and hexagonal",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler045"
+  },
+  {
+    "slug": "euler046",
+    "name": "Project Euler #46: Goldbach's other conjecture",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler046"
+  },
+  {
+    "slug": "euler047",
+    "name": "Project Euler #47: Distinct primes factors",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler047"
+  },
+  {
+    "slug": "euler048",
+    "name": "Project Euler #48: Self powers",
+    "domain": "misc",
+    "difficulty": "Easy",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler048"
+  },
+  {
+    "slug": "euler049",
+    "name": "Project Euler #49: Prime permutations",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler049"
+  },
+  {
+    "slug": "euler050",
+    "name": "Project Euler #50: Consecutive prime sum",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/euler050"
+  },
+  {
+    "slug": "vowels-in-the-back",
+    "name": "Vowels in the Back",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 25,
+    "url": "https://www.hackerrank.com/challenges/vowels-in-the-back"
+  },
+  {
+    "slug": "balanced-strings",
+    "name": "Balanced Strings",
+    "domain": "misc",
+    "difficulty": "Medium",
+    "score": 40,
+    "url": "https://www.hackerrank.com/challenges/balanced-strings"
+  },
+  {
+    "slug": "match-maker",
+    "name": "Match Maker",
+    "domain": "misc",
+    "difficulty": "Hard",
+    "score": 80,
+    "url": "https://www.hackerrank.com/challenges/match-maker"
+  },
+  {
+    "slug": "winning-tic-tac-toe",
+    "name": "Winning Tic Tac Toe",
+    "domain": "misc",
+    "difficulty": "Advanced",
+    "score": 90,
+    "url": "https://www.hackerrank.com/challenges/winning-tic-tac-toe"
+  },
+  {
+    "slug": "restricted-repetitions",
+    "name": "Restricted Repetitions",
+    "domain": "misc",
+    "difficulty": "Expert",
+    "score": 100,
+    "url": "https://www.hackerrank.com/challenges/restricted-repetitions"
   }
 ]
