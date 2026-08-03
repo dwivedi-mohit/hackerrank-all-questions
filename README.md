@@ -24,11 +24,11 @@
 
 ```
  ██████╗ ██╗  ██╗ █████╗ ███╗   ██╗████████╗ ██████╗ ███╗   ███╗
-██╔════╝ ██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██╔═══██╗████╗ ████║
-██║  ███╗███████║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║
-██║   ██║██╔══██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║
-╚██████╔╝██║  ██║██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║
- ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝
+ ██╔════╝ ██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██╔═══██╗████╗ ████║
+ ██║  ███╗███████║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║
+ ██║   ██║██╔══██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║
+ ╚██████╔╝██║  ██║██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║
+  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝
 ```
 
 </div>
@@ -37,7 +37,7 @@
 
 <br/>
 
-## **SYSTEM STATUS**
+## System Status
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -56,7 +56,7 @@
 
 <br/>
 
-## **> ls output/questions/**
+## Directory Structure
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -91,38 +91,34 @@
 
 <br/>
 
-## **> cat stats.txt**
+## Statistics
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  $ cat stats.txt                                        │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  DOMAIN                QUESTIONS    DIFFICULTY          │
-│  ────────────────────  ─────────    ──────────          │
-│  Misc                   778       Easy → Hard           │
-│  Algorithms             442       Easy → Hard           │
-│  Enterprise             933       Easy → Hard           │
-│  Mathematics            283       Easy → Hard           │
-│  Data Structures        121       Easy → Hard           │
-│  Python                 115       Easy → Hard           │
-│  AI                     105       Easy → Hard           │
-│  Functional Programming  93       Easy → Hard           │
-│  Tutorials               92       Easy → Hard           │
-│  Shell                   65       Easy → Hard           │
-│  Java                    64       Easy → Hard           │
-│  SQL                     58       Easy → Hard           │
-│  Databases               52       Easy → Hard           │
-│  Regex                   47       Easy → Hard           │
-│  C++                     44       Easy → Hard           │
-│  Ruby                    41       Easy → Hard           │
-│  C                       25       Easy → Hard           │
-│  Distributed Systems     21       Easy → Hard           │
-│  Security                12       Easy → Hard           │
-│  React                   10       Easy → Hard           │
+│  DOMAIN                QUESTIONS                        │
+│  ────────────────────  ─────────                        │
+│  Enterprise             933                             │
+│  Misc                   778                             │
+│  Algorithms             442                             │
+│  Mathematics            283                             │
+│  Data Structures        121                             │
+│  Python                 115                             │
+│  AI                     105                             │
+│  Functional Programming  93                             │
+│  Tutorials               92                             │
+│  Shell                   65                             │
+│  Java                    64                             │
+│  SQL                     58                             │
+│  Databases               52                             │
+│  Regex                   47                             │
+│  C++                     44                             │
+│  Ruby                    41                             │
+│  C                       25                             │
+│  Distributed Systems     21                             │
+│  Security                12                             │
+│  React                   10                             │
 │  ────────────────────  ─────────                        │
 │  TOTAL               3,401 unique questions             │
-│                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -130,63 +126,31 @@
 
 <br/>
 
-## **> cat sample.md**
+## Quick Start
 
-<details>
-<summary><b>$ cat output/questions/algorithms/solve-me-first.md</b></summary>
+```bash
+# Clone the repo
+git clone https://github.com/dwivedi-mohit/hackerrank-all-questions.git
+cd hackerrank-all-questions
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  # Solve Me First                                       │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  Slug:     solve-me-first                               │
-│  Domain:   algorithms                                   │
-│  Difficulty: Easy                                       │
-│  Score:    0                                            │
-│  URL:      hackerrank.com/challenges/solve-me-first     │
-│                                                         │
-│  ## Problem Statement                                   │
-│                                                         │
-│  Given two integers, compute their sum.                 │
-│                                                         │
-│  ## Sample Input                                        │
-│    a = 2                                                │
-│    b = 3                                                │
-│                                                         │
-│  ## Sample Output                                       │
-│    5                                                    │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+# Read a question
+cat output/questions/algorithms/solve-me-first.md
 
-</details>
+# Search
+grep -rl "binary search" output/questions/
 
----
+# List domain
+ls output/questions/python/
 
-<br/>
-
-## **> grep "binary search" output/questions/**
-
-```python
-# Quick search examples
-
-# Find all binary search problems
-grep -rl "binary search" output/questions/ | head -20
-
-# List all Hard problems
-grep -l "Hard" output/questions/**/*.md
-
-# Filter by domain
-ls output/questions/algorithms/
-ls output/questions/data-structures/
+# Query index
+python3 -c "import json; d=json.load(open('output/challenges.json')); print(len(d))"
 ```
 
 ---
 
 <br/>
 
-## **> python3 query.py**
+## Query Examples
 
 ```python
 import json
@@ -214,54 +178,56 @@ for d, count in domain_counts.most_common():
 
 <br/>
 
-## **> cat README.md | grep -A5 "FEATURES"**
+## Features
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  FEATURES                                              │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  [✓] 3,401 unique questions across 20 domains           │
-│  [✓] 2,468 public + 933 enterprise questions            │
-│  [✓] Per-domain folder organization                     │
-│  [✓] Problem metadata (difficulty, score, URL)          │
-│  [✓] Clean Markdown format                              │
-│  [✓] Master JSON index                                  │
-│  [✓] Flat copy in _flat/ for bulk operations            │
-│  [✓] All difficulty levels                              │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+- **3,401 unique questions** across 20 domains
+- **2,468 public + 933 enterprise questions**
+- Per-domain folder organization
+- Problem metadata (difficulty, score, URL)
+- Clean Markdown format
+- Master JSON index
+- Flat copy in `_flat/` for bulk operations
+- All difficulty levels
 
 ---
 
 <br/>
 
-## **> ./quick-start.sh**
+## Enterprise Library
 
-```bash
-# Clone the repo
-git clone https://github.com/dwivedi-mohit/hackerrank-all-questions.git
-cd hackerrank-all-questions
+The enterprise questions are sourced from HackerRank's Work Library API. These include:
+- **Coding challenges** (165)
+- **Full-stack projects** (114)
+- **MCQs** (493 single + 77 multi-select)
+- **Database queries** (42)
+- **System design** (5)
+- **And more** (sudorank, approx, whiteboard, etc.)
 
-# Read a question
-cat output/questions/algorithms/solve-me-first.md
-
-# Search
-grep -rl "binary search" output/questions/
-
-# List domain
-ls output/questions/python/
-
-# Query index
-python3 -c "import json; d=json.load(open('output/challenges.json')); print(len(d))"
-```
+> **Note:** The full HackerRank enterprise library contains 9,514 questions (4,431 hands-on + 5,083 MCQs). Accessing the complete library requires a paid subscription (Starter $165/mo, Pro $375/mo, or Enterprise $800+/mo). The 933 enterprise questions in this repo represent the maximum available on a free trial.
 
 ---
 
 <br/>
 
-## **> cat AUTHOR.txt**
+## Contest Sources
+
+This repo includes challenges from the following HackerRank contest series:
+- **101 Hack** (18–55)
+- **30 Days of Code**
+- **Project Euler** (1–50+)
+- **Week of Code** (w1–w38)
+- **World CodeSprint** (5–13)
+- **University CodeSprint** (2–5)
+- **Ad Infinitum** (8–18)
+- **HourRank** (26–31)
+- **Hack the Interview** (6 variants)
+- **Adobe Hackathon**, **CodeAgon**, **Indeed Prime**, **Regular Expresso**
+
+---
+
+<br/>
+
+## Author
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -280,7 +246,7 @@ python3 -c "import json; d=json.load(open('output/challenges.json')); print(len(
 
 <br/>
 
-## **> cat LICENSE**
+## License
 
 ```
 MIT License — 2026 Mohit Dwivedi
