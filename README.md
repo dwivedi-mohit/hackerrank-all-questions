@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00FF41?style=for-the-badge&labelColor=0a0a0a)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.14-00FF41?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)](https://python.org)
-[![Questions](https://img.shields.io/badge/1%2C993-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
+[![Questions](https://img.shields.io/badge/2%2C088-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
 
 <br/>
 
@@ -43,7 +43,7 @@
 ┌─────────────────────────────────────────────────────────┐
 │  $ ./hackerrank-dumper --status                         │
 ├─────────────────────────────────────────────────────────┤
-│  [OK] Total Questions    : 1,993 (unique)               │
+│  [OK] Total Questions    : 2,088 (unique)               │
 │  [OK] Domains            : 19 (per-domain folders)      │
 │  [OK] File Format        : Markdown (.md)               │
 │  [OK] Status             : OPERATIONAL                  │
@@ -70,7 +70,7 @@
 │  fp/                      93 questions                  │
 │  java/                    64 questions                  │
 │  mathematics/            283 questions                  │
-│  misc/                   303 questions                  │
+│  misc/                   398 questions                  │
 │  python/                 115 questions                  │
 │  react/                   10 questions                  │
 │  regex/                   47 questions                  │
@@ -80,7 +80,7 @@
 │  sql/                     58 questions                  │
 │  tutorials/               92 questions                  │
 ├─────────────────────────────────────────────────────────┤
-│  TOTAL: 1,993 unique questions | 19 DOMAINS             │
+│  TOTAL: 2,088 unique questions | 19 DOMAINS             │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -98,7 +98,7 @@
 │  DOMAIN                QUESTIONS    DIFFICULTY          │
 │  ────────────────────  ─────────    ──────────          │
 │  Algorithms               442       Easy → Hard         │
-│  Misc                     303       Easy → Hard         │
+│  Misc                     398       Easy → Hard         │
 │  Mathematics              283       Easy → Hard         │
 │  Data Structures          121       Easy → Hard         │
 │  Python                   115       Easy → Hard         │
@@ -117,7 +117,7 @@
 │  Security                  12       Easy → Hard         │
 │  React                     10       Easy → Hard         │
 │  ────────────────────  ─────────                        │
-│  TOTAL                 1,993 unique questions           │
+│  TOTAL                 2,088 unique questions           │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -218,7 +218,7 @@ for d, count in domain_counts.most_common():
 │  FEATURES                                              │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  [✓] 1,993 unique questions across 19 domains          │
+│  [✓] 2,088 unique questions across 19 domains          │
 │  [✓] Per-domain folder organization                     │
 │  [✓] Problem metadata (difficulty, score, URL)          │
 │  [✓] Clean Markdown format                              │
