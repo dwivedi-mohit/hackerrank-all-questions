@@ -94,7 +94,7 @@
   <line x1="200" y1="210" x2="700" y2="210" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
   
   <!-- Stats -->
-  <text x="450" y="245" font-family="'Courier New', monospace" font-size="18" fill="#00cc33" text-anchor="middle" opacity="0.9">25,909 QUESTIONS</text>
+  <text x="450" y="245" font-family="'Courier New', monospace" font-size="18" fill="#00cc33" text-anchor="middle" opacity="0.9">3000+ QUESTIONS</text>
   <text x="450" y="275" font-family="'Courier New', monospace" font-size="16" fill="#00aa33" text-anchor="middle" opacity="0.7">13 DOMAINS - ALL DIFFICULTIES - CLEAN MARKDOWN</text>
   
   <!-- Bottom decorative dots -->
