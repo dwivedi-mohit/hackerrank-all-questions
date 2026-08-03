@@ -1,0 +1,15 @@
+# Scraper code
+scraper/
+scraper.py
+build_index.py
+config.json
+requirements.txt
+test_tracks.py
+verify.py
+cookies.json
+__pycache__/
+
+# Metadata/index files (not needed in repo)
+output/domain-slugs.json
+output/full-slugs.json
+output/scrape_checkpoint.json

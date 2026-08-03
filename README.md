@@ -70,6 +70,7 @@
 │  fp/                      93 questions                  │
 │  java/                    64 questions                  │
 │  mathematics/            283 questions                  │
+│  misc/                   303 questions                  │
 │  python/                 115 questions                  │
 │  react/                   10 questions                  │
 │  regex/                   47 questions                  │
@@ -77,8 +78,9 @@
 │  security/                12 questions                  │
 │  shell/                   65 questions                  │
 │  sql/                     58 questions                  │
+│  tutorials/               92 questions                  │
 ├─────────────────────────────────────────────────────────┤
-│  TOTAL: 1,598 unique questions | 17 DOMAINS             │
+│  TOTAL: 1,993 unique questions | 19 DOMAINS             │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -96,11 +98,13 @@
 │  DOMAIN                QUESTIONS    DIFFICULTY          │
 │  ────────────────────  ─────────    ──────────          │
 │  Algorithms               442       Easy → Hard         │
+│  Misc                     303       Easy → Hard         │
 │  Mathematics              283       Easy → Hard         │
 │  Data Structures          121       Easy → Hard         │
 │  Python                   115       Easy → Hard         │
 │  AI                       105       Easy → Hard         │
 │  Functional Programming    93       Easy → Hard         │
+│  Tutorials                 92       Easy → Hard         │
 │  Shell                     65       Easy → Hard         │
 │  Java                      64       Easy → Hard         │
 │  SQL                       58       Easy → Hard         │
@@ -113,7 +117,7 @@
 │  Security                  12       Easy → Hard         │
 │  React                     10       Easy → Hard         │
 │  ────────────────────  ─────────                        │
-│  TOTAL                 1,598 unique questions           │
+│  TOTAL                 1,993 unique questions           │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -214,7 +218,7 @@ for d, count in domain_counts.most_common():
 │  FEATURES                                              │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  [✓] 1,598 unique questions across 17 domains          │
+│  [✓] 1,993 unique questions across 19 domains          │
 │  [✓] Per-domain folder organization                     │
 │  [✓] Problem metadata (difficulty, score, URL)          │
 │  [✓] Clean Markdown format                              │
