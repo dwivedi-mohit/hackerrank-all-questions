@@ -8,6 +8,21 @@ test_tracks.py
 verify.py
 cookies.json
 __pycache__/
+neo_signup.py
+hr_signup.py
+combine_enterprise.py
+
+# Temp/working files
+output/errors.log
+output/neo_api_calls.json
+output/email_domain_results.json
+output/enterprise_api_sample.json
+output/enterprise_sample.json
+output/hr_verification_email.json
+output/neo_*.png
+output/hr_*.png
+output/debug_*.png
+work_api_token.json
 
 # Metadata/index files (not needed in repo)
 output/domain-slugs.json

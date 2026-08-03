@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00FF41?style=for-the-badge&labelColor=0a0a0a)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.14-00FF41?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)](https://python.org)
-[![Questions](https://img.shields.io/badge/2%2C088-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
+[![Questions](https://img.shields.io/badge/3%2C037-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
 
 <br/>
 
@@ -43,8 +43,10 @@
 ┌─────────────────────────────────────────────────────────┐
 │  $ ./hackerrank-dumper --status                         │
 ├─────────────────────────────────────────────────────────┤
-│  [OK] Total Questions    : 2,088 (unique)               │
-│  [OK] Domains            : 19 (per-domain folders)      │
+│  [OK] Total Questions    : 3,037 (unique)               │
+│  [OK] Public Questions   : 2,088 (per-domain)           │
+│  [OK] Enterprise Qs      : 949 (HR Work Library)        │
+│  [OK] Domains            : 20 (per-domain folders)      │
 │  [OK] File Format        : Markdown (.md)               │
 │  [OK] Status             : OPERATIONAL                  │
 └─────────────────────────────────────────────────────────┘
@@ -79,8 +81,9 @@
 │  shell/                   65 questions                  │
 │  sql/                     58 questions                  │
 │  tutorials/               92 questions                  │
+│  _enterprise/            949 questions (HR Work)        │
 ├─────────────────────────────────────────────────────────┤
-│  TOTAL: 2,088 unique questions | 19 DOMAINS             │
+│  TOTAL: 3,037 unique questions | 20 DOMAINS             │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -117,7 +120,7 @@
 │  Security                  12       Easy → Hard         │
 │  React                     10       Easy → Hard         │
 │  ────────────────────  ─────────                        │
-│  TOTAL                 2,088 unique questions           │
+│  TOTAL                 3,037 unique questions           │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -218,7 +221,8 @@ for d, count in domain_counts.most_common():
 │  FEATURES                                              │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  [✓] 2,088 unique questions across 19 domains          │
+│  [✓] 3,037 unique questions across 20 domains           │
+│  [✓] 2,088 public practice + 949 enterprise questions   │
 │  [✓] Per-domain folder organization                     │
 │  [✓] Problem metadata (difficulty, score, URL)          │
 │  [✓] Clean Markdown format                              │
