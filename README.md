@@ -8,11 +8,11 @@
 [![GitHub forks](https://img.shields.io/github/forks/dwivedi-mohit/hackerrank-all-questions?style=for-the-badge&logo=github&color=00FF41&labelColor=0a0a0a)](https://github.com/dwivedi-mohit/hackerrank-all-questions/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00FF41?style=for-the-badge&labelColor=0a0a0a)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.14-00FF41?style=for-the-badge&logo=python&logoColor=0a0a0a&labelColor=0a0a0a)](https://python.org)
-[![Questions](https://img.shields.io/badge/1%2C993-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
+[![Questions](https://img.shields.io/badge/1%2C598-Unique%20Questions-00FF41?style=for-the-badge&labelColor=0a0a0a)](output/questions)
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Every+HackerRank+Question+Offline%3BFull+Problem+Statements+in+Markdown" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Every+HackerRank+Question+Offline%3BPer+Domain+Organization" alt="Typing SVG" />
 
 </div>
 
@@ -43,10 +43,9 @@
 ┌─────────────────────────────────────────────────────────┐
 │  $ ./hackerrank-dumper --status                         │
 ├─────────────────────────────────────────────────────────┤
-│  [OK] Total Questions    : 1,993 (unique)                    │
-│  [OK] Domains Tagged     : 14 (all questions tagged)        │
+│  [OK] Total Questions    : 1,598 (unique)               │
+│  [OK] Domains            : 17 (per-domain folders)      │
 │  [OK] File Format        : Markdown (.md)               │
-│  [OK] Index Size         : 12.7 MB                      │
 │  [OK] Status             : OPERATIONAL                  │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -61,21 +60,25 @@
 ┌─────────────────────────────────────────────────────────┐
 │  $ ls output/questions/                                 │
 ├─────────────────────────────────────────────────────────┤
-│  ai/           1,993 questions   Machine Learning, NLP  │
-│  algorithms/   1,993 questions   Sorting, DP, Graphs   │
-│  c/            1,993 questions   C Language            │
-│  cpp/          1,993 questions   C++ Language          │
-│  data-structs/ 1,993 questions   Trees, Heaps, Lists   │
-│  databases/    1,993 questions   DB Design, SQL        │
-│  fp/           1,993 questions   Haskell, Erlang       │
-│  java/         1,993 questions   Java Language         │
-│  mathematics/  1,993 questions   Number Theory, Geo   │
-│  python/       1,993 questions   Python Language       │
-│  regex/        1,993 questions   Regular Expressions   │
-│  shell/        1,993 questions   Bash Scripting        │
-│  sql/          1,993 questions   Query Writing         │
+│  ai/                     105 questions                  │
+│  algorithms/             442 questions                  │
+│  c/                       25 questions                  │
+│  cpp/                     44 questions                  │
+│  data-structures/        121 questions                  │
+│  databases/               52 questions                  │
+│  distributed-systems/     21 questions                  │
+│  fp/                      93 questions                  │
+│  java/                    64 questions                  │
+│  mathematics/            283 questions                  │
+│  python/                 115 questions                  │
+│  react/                   10 questions                  │
+│  regex/                   47 questions                  │
+│  ruby/                    41 questions                  │
+│  security/                12 questions                  │
+│  shell/                   65 questions                  │
+│  sql/                     58 questions                  │
 ├─────────────────────────────────────────────────────────┤
-│  TOTAL: 1,993 unique questions | 14 DOMAINS TAGS  │
+│  TOTAL: 1,598 unique questions | 17 DOMAINS             │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -90,29 +93,27 @@
 │  $ cat stats.txt                                        │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  DOMAIN            QUESTIONS    DIFFICULTY              │
-│  ────────────────  ─────────    ──────────              │
-│  Algorithms        1,993        Easy → Hard             │
-│  Angular           1,993        Easy → Hard             │
-│  C                 1,993        Easy → Hard             │
-│  CI/CD             1,993        Easy → Hard             │
-│  C++               1,993        Easy → Hard             │
-│  Data Structures   1,993        Easy → Hard             │
-│  Databases         1,993        Easy → Hard             │
-│  Devops            1,993        Easy → Hard             │
-│  Docker            1,993        Easy → Hard             │
-│  FP                1,993        Easy → Hard             │
-│  Git               1,993        Easy → Hard             │
-│  Java              1,993        Easy → Hard             │
-│  Kubernetes        1,993        Easy → Hard             │
-│  Mathematics       1,993        Easy → Hard             │
-│  Python            1,993        Easy → Hard             │
-│  Regex             1,993        Easy → Hard             │
-│  Shell             1,993        Easy → Hard             │
-│  Spring Boot       1,993        Easy → Hard             │
-│  SQL               1,993        Easy → Hard             │
-│  ────────────────  ─────────                                 │
-│  TOTAL             1,993 unique (tagged across 14 domains) │
+│  DOMAIN                QUESTIONS    DIFFICULTY          │
+│  ────────────────────  ─────────    ──────────          │
+│  Algorithms               442       Easy → Hard         │
+│  Mathematics              283       Easy → Hard         │
+│  Data Structures          121       Easy → Hard         │
+│  Python                   115       Easy → Hard         │
+│  AI                       105       Easy → Hard         │
+│  Functional Programming    93       Easy → Hard         │
+│  Shell                     65       Easy → Hard         │
+│  Java                      64       Easy → Hard         │
+│  SQL                       58       Easy → Hard         │
+│  Databases                 52       Easy → Hard         │
+│  Regex                     47       Easy → Hard         │
+│  C++                       44       Easy → Hard         │
+│  Ruby                      41       Easy → Hard         │
+│  C                         25       Easy → Hard         │
+│  Distributed Systems       21       Easy → Hard         │
+│  Security                  12       Easy → Hard         │
+│  React                     10       Easy → Hard         │
+│  ────────────────────  ─────────                        │
+│  TOTAL                 1,598 unique questions           │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -124,27 +125,22 @@
 ## **> cat sample.md**
 
 <details>
-<summary><b>$ cat output/questions/solve-me-first.md</b></summary>
+<summary><b>$ cat output/questions/algorithms/solve-me-first.md</b></summary>
 
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  # Solve Me First                                       │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  Domain:        algorithms                              │
-│  Difficulty:    Easy                                    │
-│  Max Score:     1                                       │
-│  URL:           hackerrank.com/challenges/...           │
+│  Slug:     solve-me-first                               │
+│  Domain:   algorithms                                   │
+│  Difficulty: Easy                                       │
+│  Score:    0                                            │
+│  URL:      hackerrank.com/challenges/solve-me-first     │
 │                                                         │
 │  ## Problem Statement                                   │
 │                                                         │
-│  Complete the function $solveMeFirst$ to compute the    │
-│  sum of two integers.                                   │
-│                                                         │
-│  Example:                                               │
-│    $a = 7$                                              │
-│    $b = 3$                                              │
-│    Return $10$                                          │
+│  Given two integers, compute their sum.                 │
 │                                                         │
 │  ## Sample Input                                        │
 │    a = 2                                                │
@@ -171,10 +167,11 @@
 grep -rl "binary search" output/questions/ | head -20
 
 # List all Hard problems
-grep -l "Hard" output/questions/*.md
+grep -l "Hard" output/questions/**/*.md
 
-# Filter by domain tag
-python3 -c "import json; d=json.load(open('output/domain-index.json')); print(len(d.get('algorithms', [])))"
+# Filter by domain
+ls output/questions/algorithms/
+ls output/questions/data-structures/
 ```
 
 ---
@@ -193,14 +190,17 @@ with open("output/challenges.json") as f:
 hard_algos = [
     c for c in challenges
     if "algorithms" in c.get("domains", [])
-    and c["difficulty"] == "Hard"
 ]
+print(f"Found {len(hard_algos)} algorithm problems")
 
-print(f"Found {len(hard_algos)} hard algorithm problems")
-
-# Filter by domain
-devops_questions = [c for c in challenges if "devops" in c.get("domains", [])]
-print(f"DevOps questions: {len(devops_questions)}")
+# Count by domain
+from collections import Counter
+domain_counts = Counter()
+for c in challenges:
+    for d in c.get("domains", []):
+        domain_counts[d] += 1
+for d, count in domain_counts.most_common():
+    print(f"  {d}: {count}")
 ```
 
 ---
@@ -214,13 +214,12 @@ print(f"DevOps questions: {len(devops_questions)}")
 │  FEATURES                                              │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  [✓] 1,993 unique questions across 14 domain tags   │
-│  [✓] Full problem statements with LaTeX math            │
-│  [✓] Sample inputs & outputs                            │
-│  [✓] Constraints and input format                       │
-│  [✓] Explanations and editorial hints                   │
+│  [✓] 1,598 unique questions across 17 domains          │
+│  [✓] Per-domain folder organization                     │
+│  [✓] Problem metadata (difficulty, score, URL)          │
 │  [✓] Clean Markdown format                              │
-│  [✓] Master JSON index (12.7 MB)                        │
+│  [✓] Master JSON index                                  │
+│  [✓] Flat copy in _flat/ for bulk operations            │
 │  [✓] All difficulty levels                              │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
@@ -242,6 +241,9 @@ cat output/questions/algorithms/solve-me-first.md
 
 # Search
 grep -rl "binary search" output/questions/
+
+# List domain
+ls output/questions/python/
 
 # Query index
 python3 -c "import json; d=json.load(open('output/challenges.json')); print(len(d))"

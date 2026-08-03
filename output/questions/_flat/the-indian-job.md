@@ -1,0 +1,71 @@
+# The Indian Job
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `the-indian-job` |
+| **Domain** | algorithms |
+| **Difficulty** | Medium |
+| **Score** | 70 |
+| **URL** | https://www.hackerrank.com/challenges/the-indian-job |
+
+---
+
+## Preview
+
+Robbers want to steal a pre-defined amount of jewels within G minutes such that no two robbers can steal at the same time and they can steal for decided time only. Check whether any possible ordering for robbing exists or not?
+
+## Problem Statement
+
+It is the Indian version of the famous heist “The Italian Job”. _N_ robbers have already broken into the National Museum and are just about to get inside the main vault which is full of jewels. They were lucky that just as they broke into the museum, the guard was leaving the museum for exactly _G_ minutes. But there are other problems too. The main vault has heat sensors that if at any moment of time there are more than two people present in the vault, the alarm goes off.
+
+
+To collect the jewels, the _i<sup>th</sup>_ robber needs to be inside the vault for exactly _A[i]_ minutes, _0 <= i < N_, in one continuous stretch. As guard will return after _G_ minutes, they have to finish their tasks within _G_ minutes. The robbers want to know if there exists any arrangement such that demands of each robber is satisfied and also they are not caught?
+
+**Gotchas**
+
+If a robber goes inside the vault at a time "X" and at the same time another robber comes out, it's equivalent to saying they were never in the vault at the same time.
+
+Similarly, when the guard gets inside vault at time _G_ and a robber comes out exactly at time _G_, the guard will not be able see the robber.
+
+## Input Format
+
+The first line contains an integer _T_ denoting the number of testcases. _T_ testcases follow.
+Each testcase consists of two lines. First line contains two space separated integers denoting _N_ and _G_ denoting the number of thieves and duration for which guard leaves the museum.
+
+The next line contains N space separated numbers where the ith integer, A[i] 
+represents the time the i<sup>th</sup> robber needs to be in the vault.
+
+## Output Format
+
+For each testcase print `YES` if there exists such an arrangement or `NO` otherwise in a newline.
+
+## Constraints
+
+1 <= T <= 20
+
+1 <= N <= 100
+
+0 <= G <= 1000000 (10<sup>6</sup>)
+
+0 <= A[i] <= 100
+
+## Sample Tests
+
+### Test 1
+
+```
+2
+3 4
+2 4 2
+3 2
+2 4 2
+```
+
+### Test 2
+
+```
+YES
+NO
+```

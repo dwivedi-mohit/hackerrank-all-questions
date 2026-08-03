@@ -1,0 +1,148 @@
+# Reduce Function
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `reduce-function` |
+| **Domain** | python |
+| **Difficulty** | Medium |
+| **Score** | 30 |
+| **URL** | https://www.hackerrank.com/challenges/reduce-function |
+
+---
+
+## Preview
+
+Python Practice
+
+## Problem Statement
+
+Given a list of rational numbers,find their product.
+
+
+**Concept**   
+
+The `reduce()` function applies a function of two arguments cumulatively on a list of objects in succession from left to right to reduce it to one value. Say you have a list, say `[1,2,3]` and you have to find its sum.
+
+```python
+>>> reduce(lambda x, y : x + y,[1,2,3])
+6
+```
+
+
+You can also define an initial value. If it is specified, the function will assume initial value as the value given, and then reduce. It is equivalent to adding the initial value at the beginning of the list. For example:
+
+```python
+>>> reduce(lambda x, y : x + y, [1,2,3], -3)
+3
+
+>>> from fractions import gcd
+>>> reduce(gcd, [2,4,8], 3)
+1
+```
+
+## Input Format
+
+First line contains $n$, the number of rational numbers.         
+
+The $i^{\text{th}}$ of next $n$ lines contain two integers each, the numerator( $N_i$ ) and denominator( $D_i$ ) of the $i^{\text{th}}$ rational number in the list.
+
+## Output Format
+
+Print only one line containing the numerator and denominator of the product of the numbers in the list in its simplest form, i.e. numerator and denominator have no common divisor other than $1$.
+
+## Constraints
+
+- $1 \le n \le 100$      
+
+- $1 \leq N_i, D_i \leq 10^9 $
+
+## Sample Tests
+
+### Test 1
+
+```
+>>>
+reduce
+(
+lambda
+x
+,
+y
+:
+x
++
+y
+,[
+1
+,
+2
+,
+3
+])
+6
+```
+
+### Test 2
+
+```
+>>>
+reduce
+(
+lambda
+x
+,
+y
+:
+x
++
+y
+,
+[
+1
+,
+2
+,
+3
+],
+-
+3
+)
+3
+>>>
+from
+fractions
+import
+gcd
+>>>
+reduce
+(
+gcd
+,
+[
+2
+,
+4
+,
+8
+],
+3
+)
+1
+```
+
+### Test 3
+
+```
+3
+1 2
+3 4
+10 6
+```
+
+### Test 4
+
+```
+5 8
+```

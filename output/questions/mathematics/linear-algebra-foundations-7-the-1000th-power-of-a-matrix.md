@@ -1,0 +1,53 @@
+# Linear Algebra Foundations #7 - The 1000th Power of a Matrix
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `linear-algebra-foundations-7-the-1000th-power-of-a-matrix` |
+| **Domain** | mathematics |
+| **Difficulty** | Hard |
+| **Score** | 5 |
+| **URL** | https://www.hackerrank.com/challenges/linear-algebra-foundations-7-the-1000th-power-of-a-matrix |
+
+---
+
+## Preview
+
+Compute the 1000th power of the given matrix.
+
+## Problem Statement
+
+You are provided a matrix $A$ =
+
+
+		   [-2     -9 ]                
+
+           [ 1      4 ]        
+
+         
+
+         
+
+The 1000<sup>th</sup> power of $A$, i.e. $A$<sup>1000</sup> = 
+
+			[A	B]
+            [C	D]
+
+In the text box below, enter the integers $A$, $B$, $C$ and $D$ each on a new line, respectively. Do not leave any leading or trailing spaces.
+
+## Sample Tests
+
+### Test 1
+
+```
+[-2 -9 ] 
+ [ 1 4 ]
+```
+
+### Test 2
+
+```
+[A B]
+ [C D]
+```

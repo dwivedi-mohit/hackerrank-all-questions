@@ -1,0 +1,64 @@
+# Chocolate in Box
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `chocolate-in-box` |
+| **Domain** | algorithms |
+| **Difficulty** | Medium |
+| **Score** | 70 |
+| **URL** | https://www.hackerrank.com/challenges/chocolate-in-box |
+
+---
+
+## Preview
+
+The game between Dexter and Debra has just started. He 
+wants to know the number of ways to make a first move such 
+that under optimal play, the first player always wins.
+
+## Problem Statement
+
+Dexter and Debra are playing a game. They have *N* containers each having one or more chocolates. Containers are numbered from *1* to *N*, where *i<sup>th</sup>* container has *A[i]* number of chocolates.
+
+The game goes like this. First player will choose a container and take one or more chocolates from it. Then, second player will choose a non-empty container and take one or more chocolates from it. And then they alternate turns. This process will continue, until one of the players is not able to take any chocolates (because no chocolates are left). One who is not able to take any chocolates loses the game. Note that player can choose only non-empty container.
+
+The game between Dexter and Debra has just started, and Dexter has got the first Chance. He wants to know the number of ways to make a first move such that under optimal play, the first player always wins.
+
+## Input Format
+
+The first line contains an integer *N*, i.e., number of containers. <br>
+The second line contains *N* integers, i.e., number of chocolates in each of the containers separated by a single space.
+
+## Output Format
+
+Print the number of ways to make the first move such that under optimal play, the first player always wins. If the first player cannot win under optimal play, print 0.
+
+## Constraints
+
+1 &le; *N* &le; 10<sup>6</sup>
+
+1 &le; *A[i]* &le; 10<sup>9</sup>
+
+## Sample Tests
+
+### Test 1
+
+```
+2
+2 3
+```
+
+### Test 2
+
+```
+1
+```
+
+### Test 3
+
+```
+Player: 1 2 1 2 1
+Chocolates: 2 3 -> 2 2 -> 1 2 -> 1 1 -> 0 1
+```

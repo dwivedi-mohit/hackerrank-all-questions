@@ -1,0 +1,71 @@
+# Check Subset
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `py-check-subset` |
+| **Domain** | python |
+| **Difficulty** | Easy |
+| **Score** | 10 |
+| **URL** | https://www.hackerrank.com/challenges/py-check-subset |
+
+---
+
+## Preview
+
+Verify if set A is a subset of set B.
+
+## Problem Statement
+
+You are given two sets, $A$ and $B$. 
+
+Your job is to find whether set $A$ is a subset of set $B$.<br>
+
+If set $A$ is subset of set $B$, print __True__.<br>
+If set $A$ is not a subset of set $B$, print __False__.
+
+## Input Format
+
+The first line will contain the number of test cases, $T$. <br>
+The first line of each test case contains the number of elements in set $A$.<br>
+The second line of each test case contains the space separated elements of set $A$.<br>
+The third line of each test case contains the number of elements in set $B$.<br>
+The fourth line of each test case contains the space separated elements of set $B$.<br>
+
+## Output Format
+
+Output __True__ or __False__ for each test case on separate lines.
+
+## Constraints
+
++ $0 < T < 21$ 
++ $0 < \text{Number of elements in each set} < 1001$
+
+## Sample Tests
+
+### Test 1
+
+```
+3
+5
+1 2 3 5 6
+9
+9 8 5 6 3 2 1 4 7
+1
+2
+5
+3 6 5 4 1
+7
+1 2 3 5 6 8 9
+3
+9 8 2
+```
+
+### Test 2
+
+```
+True 
+False
+False
+```

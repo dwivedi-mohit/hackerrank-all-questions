@@ -1,0 +1,85 @@
+# Triangle Quest 2
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `triangle-quest-2` |
+| **Domain** | python |
+| **Difficulty** | Medium |
+| **Score** | 20 |
+| **URL** | https://www.hackerrank.com/challenges/triangle-quest-2 |
+
+---
+
+## Preview
+
+Create a palindromic triangle.
+
+## Problem Statement
+
+You are given a positive integer $N$.
+
+Your task is to print a palindromic triangle of size $N$.
+
+
+For example, a palindromic triangle of size $5$ is:
+
+```python
+1
+121
+12321
+1234321
+123454321
+```		  
+
+You can't take more than two lines. The first line (a *for*-statement) is already written for you.
+
+You have to complete the code using exactly one print statement.
+
+
+**Note**: 
+
+Using anything related to *strings* will give a score of $0$.
+
+Using more than one *for*-statement will give a score of $0$.
+
+## Input Format
+
+A single line of input containing the integer $N$.
+
+## Output Format
+
+Print the palindromic triangle of size $N$ as explained above.
+
+## Constraints
+
++ $0 < N < 10$
+
+## Sample Tests
+
+### Test 1
+
+```
+1
+121
+12321
+1234321
+123454321
+```
+
+### Test 2
+
+```
+5
+```
+
+### Test 3
+
+```
+1
+121
+12321
+1234321
+123454321
+```

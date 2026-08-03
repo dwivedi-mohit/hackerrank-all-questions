@@ -1,0 +1,62 @@
+# Database Normalization #10
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `database-normalization-10` |
+| **Domain** | databases |
+| **Difficulty** | Medium |
+| **Score** | 5 |
+| **URL** | https://www.hackerrank.com/challenges/database-normalization-10 |
+
+---
+
+## Preview
+
+Splitting a table into 4NF form.
+
+## Problem Statement
+
+The following table stores rows of information about pizza deliveries. The three columns correspond to the **Restaurant name**, **Crust**, **Delivery Area**. 
+We convert this table into **Fourth Normal Form** and so we end up creating two tables, each with two columns and **N** rows. (Both the new tables have an equal number of rows)
+
+
+    Restaurant	Crust		Delivery Area
+	-------------------------------------------
+	X Pizza		Thick		Whitefield
+    X Pizza		Thick		Greenville
+    X Pizza		Thick		Capital
+    X Pizza		Stuffed		Whitefield
+    X Pizza		Stuffed		Greenville
+    X Pizza		Stuffed		Capital
+    Papa Pizza	Thin		Capital
+    Papa Pizza	Stuffed		Capital
+    F1 Pizza	Thick		Whitefield
+    F1 Pizza	Thick		Greenville
+    F1 Pizza	Thin		Whitefield
+    F1 Pizza	Thin		Greenville
+  
+
+In the text box below, enter the value of the integer **N**.
+
+## Sample Tests
+
+### Test 1
+
+```
+Restaurant Crust Delivery Area
+-------------------------------------------
+X Pizza Thick Whitefield
+X Pizza Thick Greenville
+X Pizza Thick Capital
+X Pizza Stuffed Whitefield
+X Pizza Stuffed Greenville
+X Pizza Stuffed Capital
+Papa Pizza Thin Capital
+Papa Pizza Stuffed Capital
+F1 Pizza Thick Whitefield
+F1 Pizza Thick Greenville
+F1 Pizza Thin Whitefield
+F1 Pizza Thin Greenville
+```

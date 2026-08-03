@@ -1,0 +1,46 @@
+# Employee Names
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `name-of-employees` |
+| **Domain** | sql |
+| **Difficulty** | Easy |
+| **Score** | 10 |
+| **URL** | https://www.hackerrank.com/challenges/name-of-employees |
+
+---
+
+## Preview
+
+Print employee names.
+
+## Problem Statement
+
+Write a query that prints a list of employee names (i.e.: the _name_ attribute) from the **Employee** table in alphabetical order.
+
+## Input Format
+
+The **Employee** table containing employee data for a company is described as follows: 
+
+<img src="https://s3.amazonaws.com/hr-challenge-images/19629/1458557872-4396838885-ScreenShot2016-03-21at4.27.13PM.png"/>
+
+where _employee\_id_ is an employee's ID number, _name_ is their name, _months_ is the total number of months they've been working for the company, and _salary_ is their monthly salary.
+
+## Sample Tests
+
+### Test 1
+
+```
+Angela
+Bonnie
+Frank
+Joe
+Kimberly
+Lisa
+Michael
+Patrick
+Rose
+Todd
+```

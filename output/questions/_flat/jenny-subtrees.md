@@ -1,0 +1,93 @@
+# Jenny's Subtrees
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `jenny-subtrees` |
+| **Domain** | data-structures |
+| **Difficulty** | Hard |
+| **Score** | 70 |
+| **URL** | https://www.hackerrank.com/challenges/jenny-subtrees |
+
+---
+
+## Preview
+
+Given a tree, find the number of distinct subtrees having a specific radius that can be cut from it.
+
+## Problem Statement
+
+Jenny loves experimenting with [trees](https://en.wikipedia.org/wiki/Tree_(graph_theory)). Her favorite tree has $n$ nodes connected by $n - 1$ edges, and each edge is $1$ unit in length. She wants to cut a *subtree* (i.e., a connected part of the original tree) of radius $r$ from this tree by performing the following two steps:
+
+1. Choose a node, $x$, from the tree.
+2. Cut a subtree consisting of *all* nodes which are *not further* than $r$ units from node $x$. 
+
+For example, the blue nodes in the diagram below depict a subtree centered at $x = 1$ that has radius $r = 2$:
+
+![image](https://s3.amazonaws.com/hr-challenge-images/0/1483075128-6989fccb33-jenny3.png)
+
+Given $n$, $r$, and the definition of Jenny's tree, find and print the number of *different* subtrees she can cut out. Two subtrees are considered to be different if they are not  [isomorphic](https://en.wikipedia.org/wiki/Graph_isomorphism).
+
+## Input Format
+
+The first line contains two space-separated integers denoting the respective values of $n$ and $r$.  	
+Each of the next $n - 1$ subsequent lines contains two space-separated integers, $x$ and $y$, describing a bidirectional edge in Jenny's tree having length $1$.
+
+## Output Format
+
+Print the total number of different possible subtrees.
+
+## Constraints
+
++ $1 \le n \le 3000$
+
++ $0 \le r \le 3000$
+
++ $1 \le x,y \le n$
+
+**Subtasks**
+
+For $50\%$ of the max score:
+
++ $1 \le n \le 500$
+
++ $0 \le r \le 500$
+
+## Sample Tests
+
+### Test 1
+
+```
+7 1
+1 2
+1 3
+1 4
+1 5
+2 6
+2 7
+```
+
+### Test 2
+
+```
+3
+```
+
+### Test 3
+
+```
+7 3
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+```
+
+### Test 4
+
+```
+4
+```

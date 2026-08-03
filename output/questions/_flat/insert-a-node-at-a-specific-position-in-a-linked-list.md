@@ -1,0 +1,90 @@
+# Insert a node at a specific position in a linked list
+
+---
+
+| Field | Value |
+|---|---|
+| **Slug** | `insert-a-node-at-a-specific-position-in-a-linked-list` |
+| **Domain** | data-structures |
+| **Difficulty** | Easy |
+| **Score** | 5 |
+| **URL** | https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list |
+
+---
+
+## Preview
+
+Insert a node at a specific position in a linked list.
+
+## Problem Statement
+
+<sub>This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool) and is accompanied by a video lesson.</sub>
+
+Given a pointer to the head node of a linked list and an integer to insert at a certain position, create a new node with the given integer as its $data$ attribute, insert this node at the desired position, and return the head node.
+
+A position of 0 indicates the head, a position of 1 indicates one node away from the head, and so on. The head pointer given may be null, meaning that the initial list is empty.  
+
+
+**Example**
+
+$head$ refers to the first node in the list $1 \rightarrow 2 \rightarrow 3$
+
+$data = 4$
+
+$position = 2$
+
+
+Insert a node at position $2$ with $data = 4$.  The new list is $1 \rightarrow 2 \rightarrow 4 \rightarrow 3$
+
+**Function Description**
+
+Complete the function $insertNodeAtPosition$ with the following parameters:
+
+-  $SinglyLinkedListNode\ pointer\ llist$: a reference to the head of the list
+-  $data$: an integer value to insert as data in the new node
+-  $position$: an integer position to insert the new node, zero-based indexing
+
+
+**Returns**
+
+
+-  $SinglyLinkedListNode\ pointer$: a reference to the head of the revised list
+
+## Input Format
+
+The first line contains an integer $n$, the number of elements in the linked list.
+
+Each of the next $n$ lines contains an integer SinglyLinkedListNode[i].data.
+
+The next line contains an integer $data$, the data of the node that is to be inserted.
+
+The last line contains an integer $position$.
+
+## Constraints
+
+- $ 1 \le n \le 1000$
+
+- $ 1 \le SinglyLinkedListNode[i].data \le 1000$, where $SinglyLinkedListNode[i]$ is the $i^{th}$ element of the linked list.
+
+- $ 0 \le position \le n$.
+
+## Sample Tests
+
+### Test 1
+
+```
+STDIN Function
+----- --------
+3 n = 3
+16 llist = 16->13->7
+13
+7
+1 data = 1
+2 position = 2
+```
+
+### Test 2
+
+```
+16 13 1 7
+```
